@@ -10,20 +10,12 @@ async function scrapeProjectData() {
     const $ = cheerio.load(html);
     const projectLinks = [];
 
-    $(".col-md-3", html).each(function () {
-      const relativeUrl = $(this).find("a").attr("href");
+    $(".figure a", html).each(function () {
+      const relativeUrl = $(this).attr("href");
       const completeUrl = baseUrl + relativeUrl;
       projectLinks.push(completeUrl);
     });
-
-    $(".col-md-6", html).each(function () {
-      const relativeUrl = $(this).find("a").attr("href");
-      if (relativeUrl && relativeUrl.startsWith("/?")) {
-        const completeUrl = baseUrl + relativeUrl;
-        projectLinks.push(completeUrl);
-      }
-    });
-
+    
     const allProjectData = [];
     
     let i = 0;
@@ -36,19 +28,19 @@ async function scrapeProjectData() {
 
       projectData.title = $("h2").text();
       projectData.description = $("div.description p").text();
-      projectData.buildingType = $(`div.detail-row:contains('Bautypologie') p`).text().trim();
-      projectData.district = $(`div.district p`).text().trim();
-      if (!$(`div.categories`).text().includes("Touren")) {
-        projectData.category = $(`div.categories`).text().trim();
+      projectData.buildingType = $("div.detail-row:contains('Bautypologie') p").text().trim();
+      projectData.district = $("div.district p").text().trim();
+      if (!$("div.categories").text().includes("Touren")) {
+        projectData.category = $("div.categories").text().trim();
       }
-      projectData.address = $(`div.detail-row:contains('Standort') p`).text().trim();
+      projectData.address = $("div.detail-row:contains('Standort') p").text().trim();
       imageSrc = $("div.iteminnerimage img").attr("src");
       if (imageSrc !== undefined) {
         projectData.image = baseUrl + imageSrc;
       } else {
         projectData.image = "https://via.placeholder.com/150";
       }
-      projectData.architect = $(`div.detail-row:contains('Architekturbüro') p`).text().trim();
+      projectData.architect = $("div.detail-row:contains('Architekturbüro') p").text().trim();
       if (projectData.architect.includes("www.")) {
         // Split the text by whitespace and select the part containing "www."
         const parts = projectData.architect.split(" ");
@@ -64,7 +56,7 @@ async function scrapeProjectData() {
           projectData.architect = projectData.architect.replace(/, $/, '');
         }
       }
-      projectData.year = $(`div.detail-row:contains('Jahr der Fertigstellung') p`).text().trim();
+      projectData.year = $("div.detail-row:contains('Jahr der Fertigstellung') p").text().trim();
       projectData.link = link;
 
       
