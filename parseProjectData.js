@@ -18,12 +18,6 @@ const parseProjectData = async (link) => {
     projectData.category = $("div.categories").text().trim();
   }
   projectData.address = $("div.detail-row:contains('Standort') p").text().trim();
-  imageSrc = $("div.iteminnerimage img").attr("src");
-  if (imageSrc !== undefined) {
-    projectData.image = baseUrl + imageSrc;
-  } else {
-    projectData.image = "";
-  }
   projectData.architect = $("div.detail-row:contains('Architekturbüro') p").text().trim();
   if (projectData.architect.includes("www.")) {
     // Split the text by whitespace and select the part containing "www."
@@ -31,8 +25,8 @@ const parseProjectData = async (link) => {
     const webAddress = parts.find(part => part.includes("www."));
     projectData.architectWeb = webAddress;
     projectData.architect = projectData.architect.replace(webAddress, '').replace(/, $/, '');
-    } else {
-      projectData.architectWeb = "";
+  } else {
+    projectData.architectWeb = "";
   }
   projectData.year = $("div.detail-row:contains('Jahr der Fertigstellung') p").text().trim();
   projectData.link = link;
@@ -40,22 +34,26 @@ const parseProjectData = async (link) => {
   const urlParams = new URLSearchParams(link);
   proojectId = urlParams.get("tx_asommer_tdaevent[event]");
   projectData.id = parseInt(proojectId);
-
-  // export image to local folder from projectData.image url with projectData.id as filename (if projectData.image is not empty)
-  if (projectData.image !== "") {
-    const path = require('path');
-    const download = require('image-downloader');
-    const options = {
-      url: projectData.image,
-      dest: path.join(__dirname, 'images', projectData.id + '.jpg')
-    };  
-    download.image(options)
-      .then(({ filename }) => {
-        console.log('Saved to', filename)
-      })
-      .catch((err) => console.error(err))
-  }
   
+  // export image to local folder from imageUrl url with projectData.id as filename (if imageUrl is not empty)
+  imageSrc = $("div.iteminnerimage img").attr("src");
+  if (imageSrc !== undefined) {
+    imageUrl = baseUrl + imageSrc;
+    if (imageUrl !== "") {
+      const path = require('path');
+      const download = require('image-downloader');
+      const options = {
+        url: imageUrl,
+        dest: path.join(__dirname, 'images', projectData.id + '.jpg')
+      };  
+      download.image(options)
+        .then(({ filename }) => {
+          console.log('Saved to', filename)
+        })
+        .catch((err) => console.error(err))
+    }
+  }
+
   return projectData;
 };
 
