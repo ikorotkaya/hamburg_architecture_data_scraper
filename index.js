@@ -1,6 +1,6 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-const fs = require('fs');
+const fs = require("fs");
 const parseProjectData = require("./parseProjectData.js");
 
 const baseUrl = "https://www.tda-hamburg.de";
@@ -19,16 +19,16 @@ const baseUrl = "https://www.tda-hamburg.de";
         projectLinks.push(completeUrl);
       }
     });
-    
+
     const allProjectData = [];
-    
+
     for (const link of projectLinks) {
       const projectData = await parseProjectData(link);
       allProjectData.push(projectData);
     }
 
     const jsonData = JSON.stringify(allProjectData, null, 2);
-    const outputPath = 'allProjectData.json';
+    const outputPath = "allProjectData.json";
 
     fs.writeFile(outputPath, jsonData, (error) => {
       if (error) {
@@ -37,8 +37,7 @@ const baseUrl = "https://www.tda-hamburg.de";
         console.log(`Data written to ${outputPath}`);
       }
     });
-
   } catch (error) {
     console.log(error);
-  } 
+  }
 })();
