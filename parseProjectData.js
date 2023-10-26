@@ -1,5 +1,6 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
+const fs = require('fs');
 
 const baseUrl = "https://www.tda-hamburg.de";
 
@@ -23,11 +24,6 @@ const parseProjectData = async (link) => {
   } else {
     projectData.image = "";
   }
-
-
-
-
-
   projectData.architect = $("div.detail-row:contains('Architekturbüro') p").text().trim();
   if (projectData.architect.includes("www.")) {
     // Split the text by whitespace and select the part containing "www."
@@ -40,10 +36,25 @@ const parseProjectData = async (link) => {
   }
   projectData.year = $("div.detail-row:contains('Jahr der Fertigstellung') p").text().trim();
   projectData.link = link;
-    // get a parameter from tx_asommer_tdaevent[event] in projectData.link and assign it to projectData.id
+  // get a parameter from tx_asommer_tdaevent[event] in projectData.link and assign it to projectData.id
   const urlParams = new URLSearchParams(link);
   proojectId = urlParams.get("tx_asommer_tdaevent[event]");
   projectData.id = parseInt(proojectId);
+
+  // export image to local folder from projectData.image url with projectData.id as filename (if projectData.image is not empty)
+  if (projectData.image !== "") {
+    const path = require('path');
+    const download = require('image-downloader');
+    const options = {
+      url: projectData.image,
+      dest: path.join(__dirname, 'images', projectData.id + '.jpg')
+    };  
+    download.image(options)
+      .then(({ filename }) => {
+        console.log('Saved to', filename)
+      })
+      .catch((err) => console.error(err))
+  }
   
   return projectData;
 };
