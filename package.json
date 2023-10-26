@@ -12,6 +12,7 @@
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
     "eslint": "^8.42.0",
-    "image-downloader": "^4.3.0"
+    "image-downloader": "^4.3.0",
+    "sharp": "^0.32.6"
   }
 }
