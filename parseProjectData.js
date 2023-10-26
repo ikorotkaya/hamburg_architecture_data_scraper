@@ -23,6 +23,11 @@ const parseProjectData = async (link) => {
   } else {
     projectData.image = "";
   }
+
+
+
+
+
   projectData.architect = $("div.detail-row:contains('Architekturbüro') p").text().trim();
   if (projectData.architect.includes("www.")) {
     // Split the text by whitespace and select the part containing "www."
@@ -35,6 +40,10 @@ const parseProjectData = async (link) => {
   }
   projectData.year = $("div.detail-row:contains('Jahr der Fertigstellung') p").text().trim();
   projectData.link = link;
+    // get a parameter from tx_asommer_tdaevent[event] in projectData.link and assign it to projectData.id
+  const urlParams = new URLSearchParams(link);
+  proojectId = urlParams.get("tx_asommer_tdaevent[event]");
+  projectData.id = parseInt(proojectId);
   
   return projectData;
 };
