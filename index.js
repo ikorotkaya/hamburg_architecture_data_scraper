@@ -24,7 +24,11 @@ const baseUrl = "https://www.tda-hamburg.de";
 
     for (const link of projectLinks) {
       const projectData = await parseProjectData(link);
-      allProjectData.push(projectData);
+      if (projectData !== null) {
+        allProjectData.push(projectData);
+      } else {
+        console.log(`Skipping ${link}`);
+      }
     }
 
     const jsonData = JSON.stringify(allProjectData, null, 2);

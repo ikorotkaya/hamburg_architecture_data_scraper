@@ -10,18 +10,25 @@ const parseProjectData = async (link) => {
   const $ = cheerio.load(html);
   const projectData = {};
 
+  const addressElement = $("div.detail-row:contains('Standort') p");
+  const yearElement = $("div.detail-row:contains('Jahr der Fertigstellung') p");
+
+  if (
+    !addressElement.text() ||
+    isNaN(Number(yearElement.text())) ||
+    $("div.categories").text().includes("Touren")
+  ) {
+    return null;
+  }
+
   projectData.title = $("h2").text();
   projectData.description = $("div.description p").text();
   projectData.buildingType = $("div.detail-row:contains('Bautypologie') p")
     .text()
     .trim();
   projectData.district = $("div.district p").text().trim();
-  if (!$("div.categories").text().includes("Touren")) {
-    projectData.category = $("div.categories").text().trim();
-  }
-  projectData.address = $("div.detail-row:contains('Standort') p")
-    .text()
-    .trim();
+  projectData.address = addressElement.text().trim();
+  projectData.category = $("div.categories").text().trim();
   projectData.architect = $("div.detail-row:contains('Architekturbüro') p")
     .text()
     .trim();
@@ -35,9 +42,7 @@ const parseProjectData = async (link) => {
   } else {
     projectData.architectWeb = "";
   }
-  projectData.year = $("div.detail-row:contains('Jahr der Fertigstellung') p")
-    .text()
-    .trim();
+  projectData.year = yearElement.text().trim();
   projectData.link = link;
 
   const urlParams = new URLSearchParams(link);
