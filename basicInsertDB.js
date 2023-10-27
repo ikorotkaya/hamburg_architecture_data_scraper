@@ -1,7 +1,7 @@
 const { Pool } = require("pg");
 const fs = require("fs");
 const process = require("process");
-require('dotenv').config();
+require("dotenv").config();
 
 (async () => {
   const pool = new Pool({
@@ -37,16 +37,14 @@ require('dotenv').config();
       item.id,
     ];
 
-    console.log(item.id)
+    console.log(item.id);
 
     try {
       await client.query(text, values);
-      // client.release();
-      // console.log(`Inserted data for ID ${item.id}`);
     } catch (err) {
       console.error("Error inserting data:", err);
     }
   });
 
   pool.end();
-})()
+})();
