@@ -20,9 +20,9 @@ require('dotenv').config();
   data.forEach(async (item) => {
     const text = `
         INSERT INTO projects
-          (title, description, building_type, district, category, address, architect, architect_website, year, link, id)
+          (title, description, building_type, district, category, address, architect, year, link, id)
         VALUES
-          ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)`;
+          ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)`;
 
     const values = [
       item.title,
@@ -32,7 +32,6 @@ require('dotenv').config();
       item.category,
       item.address,
       item.architect,
-      item.architectWebsite,
       item.year,
       item.link,
       item.id,

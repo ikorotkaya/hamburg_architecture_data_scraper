@@ -35,12 +35,9 @@ const parseProjectData = async (link) => {
   if (projectData.architect.includes("www.")) {
     const parts = projectData.architect.split(" ");
     const webAddress = parts.find((part) => part.includes("www."));
-    projectData.architectWeb = webAddress;
     projectData.architect = projectData.architect
       .replace(webAddress, "")
       .replace(/, $/, "");
-  } else {
-    projectData.architectWeb = "";
   }
   projectData.year = yearElement.text().trim();
   projectData.link = link;
