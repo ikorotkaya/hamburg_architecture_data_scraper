@@ -2,7 +2,7 @@
   {
     "title": "Burstah Ensemble ",
     "description": "Das städtebauliche Entwicklungsprogramm „Innenstadtkonzept Hamburg 2010“ sieht im Umfeld der Nikolaikirche eine Neuordnung des Areals in Anlehnung an die kriegszerstörte, gründerzeitliche Bebauungsstruktur vor. Auf Grundlage des Wettbewerbsentwurfs „Großer Burstah 3, Neue Burg 1“ von BIWERMAU Architekten wurden dort zwei Büro- und Geschäftshäuser realisiert, die die stadtbildprägenden Typologien der Hamburger Kontorhäuser fortschreiben.",
-    "buildingType": "Büro- und Geschäftshaus",
+    "building_type": "Büro- und Geschäftshaus",
     "district": "Altstadt",
     "address": "Bohnenstraße, Hahntrapp, 20457 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -14,7 +14,7 @@
   {
     "title": "Carlsen Verlagscampus",
     "description": "Wo die Firma Gutmann noch bis 1980 Sandstrahlgebläse herstellte, entstand im Mai 2021 eine neue Bürowelt für den Kinder- und Jugendbuchverlag Carlsen. Diese neue Fläche in Ottensen ist Teil des zukünftigen Verlags-Campus, der sich derzeit auf dem Areal in der Völckersstraße 20 entwickelt. Sie ergänzt das dortige Verlagshaus des Unternehmens um einen weiteren, größeren Standort in direkter Nachbarschaft. \n ",
-    "buildingType": "Bürobau",
+    "building_type": "Bürobau",
     "district": "Ottensen",
     "address": "Völckerstraße 20",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -26,7 +26,7 @@
   {
     "title": "Gemeinsam Wohnen im Grünen in Alt Osdorf",
     "description": "Die dreigeschossige Neubauzeile mit Staffel (16 Wohneinheiten) im vorstädtischen Stadtteil Osdorf wurde nachhaltig geplant: Die großzügigen aufgeständerten Freisitze sind ebenso wie die Fassade aus hochwertigen Tonschindeln, zu 50 % aus recycelten Klinkern gefertigt, rückbaubar. Die Schindeln wurden speziell für die vorgehängte hinterlüftete Fassadenkonstruktion entwickelt, um Materialverluste zu minimieren und eine zeitgemäße, innovative Alternative zum umweltschädlichen Wärmedämmverbundsystem zu realisieren.",
-    "buildingType": "Wohnungsbau",
+    "building_type": "Wohnungsbau",
     "district": "Osdorf",
     "address": "Jochim-Sahling-Weg 13, 22549 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -38,7 +38,7 @@
   {
     "title": "Geschäftshaus am Lohsepark",
     "description": "Gelegen am Hamburger Lohsepark, bildet der L-förmige Baukörper städtebaulich eine Einheit mit dem angrenzenden denkmalgeschützten Bestand. Der Gebäudekörper erscheint zweigeteilt und staffelt sich durch Dachterrassen zu den Nachbarn hin ab. Der Sockel des Gebäudes ist mit grün und schwarz glasierten Klinkern gestaltet. Die mit rotem Klinker gemauerte Fassade der Obergeschosse lässt das Gebäude je nach Licht- und Witterungsverhältnissen unterschiedlich erscheinen und verleiht ihm eine nahezu textile Leichtigkeit.",
-    "buildingType": "Büro- und Geschäftsgebäude",
+    "building_type": "Büro- und Geschäftsgebäude",
     "district": "HafenCity",
     "address": "Am Lohsepark 4-6, 20457 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -50,7 +50,7 @@
   {
     "title": "Wohnen und Studieren auf der „Schanze“",
     "description": "Sieben drei- bis siebengeschossige Wohngebäude (113 Eigentumswohnungen und Studierendenwohnanlage) schließen den Blockrand Schulterblatt /Amandastraße. Nach Norden zum angrenzenden Lindenpark komplementiert ein dreigeschossiger Riegel mit Staffelgeschoss und einem fünfgeschossigen Solitär das Quartier um einen neuen Innenhof und schafft so privaten Freiraum für die Bewohner*innen. Das Quartier zeichnet sich durch eine hohe urbane Dichte (Geschossflächenzahl: 3,4) und hervorragende Wohn- und Freiraumqualitäten aus.",
-    "buildingType": "Wohnungsbau",
+    "building_type": "Wohnungsbau",
     "district": "Schanzenviertel",
     "address": "Schulterblatt 120 / Amandastraße 74, 20357 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -62,7 +62,7 @@
   {
     "title": "Barrierefreies Hamburger Rathaus",
     "description": "Mit dem Aufzug ist ein Meilenstein für die Barrierefreiheit im Hamburger Rathaus erreicht worden. Jetzt können mobilitätseingeschränkte Personen und Menschen mit Behinderung alle Ebenen vom Keller bis zum Dachgeschoss erreichen. Damit sind die Besucher*innentribüne des Plenarsaals, der Festsaal mit Galerie sowie Besprechungsräume und die Abgeordnet*innenbüros für alle Menschen, unabhängig von ihren Mobilitätseinschränkungen, selbstständig und selbstbestimmt ohne fremde Hilfe barrierefrei zugänglich.",
-    "buildingType": "Verwaltungsgebäude",
+    "building_type": "Verwaltungsgebäude",
     "district": "Altstadt",
     "address": "Rathausmarkt 1, 20095 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -74,7 +74,7 @@
   {
     "title": "Bauspielhaus Hexenberg \n",
     "description": "Der Massivholzbau wurde durch das Bezirksamt Altona und das Amt für Bauordnung und Hochbau 44 realisiert. Er beherbergt die Gruppenräume des Bauspielplatzes, in denen Kinder unter Betreuung spielen und werken können. Die Geometrie des Baukörpers verleiht diesem einen kindgerechten Maßstab. Die Baumaterialien spiegeln die Nutzung wider. Die Massivholzwände und Dächer sind im Innenraum sichtbar. Die Lärchenbretter für die Fassade wurden von der Försterei Klövensteen mit Holz aus dem bezirkseigenen Forst hergestellt.",
-    "buildingType": "Massivholzbau für die Kinder- und Jugendbetreuung",
+    "building_type": "Massivholzbau für die Kinder- und Jugendbetreuung",
     "district": "Altona",
     "address": "Königstraße 8a, 22767 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -86,7 +86,7 @@
   {
     "title": "Revitalisierung Bürogebäude Rosenstraße",
     "description": "Das in den Jahren 1993 und 1996 errichtete Büro- und Geschäftshaus in der Rosenstraße in Hamburg wurde einer umfangreichen Revitalisierung unterzogen, die neben einer BREEAM-Zertifizierung für die Lebenszyklusphasen von Immobilien zum Ziel hatte, eine Multi-Tenant Vermietung mit zeitgemäßen Arbeitsplatzformen von Open Space bis Single Workplaces zu ermöglichen – also eine Art \"Multispace\" zu realisieren, der die Mitarbeitenden in ihren Arbeitsabläufen, aber auch in ihrem Büro- und Lebensalltag unterstützt.",
-    "buildingType": "Bürogebäude",
+    "building_type": "Bürogebäude",
     "district": "Altstadt",
     "address": "Rosenstraße 9-11, 20095 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -98,7 +98,7 @@
   {
     "title": "Vom Kirdorfhaus zum Ballinhof: Umbau, Erweiterung und Sanierung eines historischen Kontorhauses an der Hamburger Binnenalster",
     "description": "Von der Alster bis zur Ferdinandstraße erstreckt sich seit Fertigstellung im Jahr 1921 das sechsgeschossige Kontorhaus. Die äußerst widersprüchlichen Fassaden aus Sandstein, Keramik und Stuck wurden mit großer Zurückhaltung saniert und teilweise mit nachgebrannter Keramik neu aufgebaut. Die originale Kupferdachdeckung wurde aufgearbeitet und gerettet. Die historischen, nach außen vortretenden Vitrinen wurden als Stahlkonstruktion neu erbaut.",
-    "buildingType": "Bürobau",
+    "building_type": "Bürobau",
     "district": "Altstadt",
     "address": "Ballindamm 17, 20095 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -110,7 +110,7 @@
   {
     "title": "Tischlerei Møbelwerft – Holz auf Holz",
     "description": "Planungsbüro und Showroom sollten ein Gesicht bekommen: Wenn Kund*innen zur Møbelwerft kommen, sehen sie direkt, was diese Tischlerei alles kann. Deren handwerkliche Exzellenz in der Arbeit mit Holz spiegelt sich vom Empfang über den Konferenzraum bis weiter in den Materialraum und den Toilettenbereich wider.  ",
-    "buildingType": "Bürobau",
+    "building_type": "Bürobau",
     "district": "Bahrenfeld",
     "address": "Boschstraße 16, 22761 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -122,7 +122,7 @@
   {
     "title": "Montblanc Haus",
     "description": "Das Montblanc Haus ist ein neues Ausstellungsgebäude, das der Kunst des Schreibens gewidmet ist. Das Projekt ist als 100 Meter langes Volumen konzipiert, das die historische Form der Hülle eines Schreibgeräts aufgreift. Eine komplexe Abfolge von Räumen auf drei Ebenen ist um ein einzigartiges Foyer herum entwickelt. Das Gebäude mit einer Nutzfläche von 3.600 m² beherbergt eine Dauerausstellung, temporäre Ausstellungsräume, ein Archiv, eine Boutique, ein Schreib-Atelier, Meetingräume und ein Café.",
-    "buildingType": "Ausstellungsgebäude",
+    "building_type": "Ausstellungsgebäude",
     "district": "Lurup",
     "address": "Hellgrundweg, 98, 22525 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -134,7 +134,7 @@
   {
     "title": "Umnutzung und Erweiterung eines Luftschutzbunkers zu Mikroappartements",
     "description": "Der unter Denkmalschutz stehende Bunker aus den 1940er Jahren wurde zu Mikroappartements sowie zwei Gewerbeeinheiten umgebaut. Die ebenfalls unter Denkmalschutz stehenden Geschossdecken und Treppenhäuser wurden erhalten und Relikte aus der aktiven Bunkerzeit in die Planung integriert. Die Belichtung der Bunkerappartements erfolgt über zwei Lichtschlitze in der Außenfassade. Historische und neue Elemente bilden dabei einen harten Kontrast. Ergänzt wurde der Bunker durch einen rückwertigen Anbau.",
-    "buildingType": "Wohnungsbau",
+    "building_type": "Wohnungsbau",
     "district": "Barmbek-Süd",
     "address": "Habichtstraße 37",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -146,7 +146,7 @@
   {
     "title": "Wohnsiedlung Julius-Vosseler-Straße",
     "description": "Als Siegerentwurf aus einem städtebaulichen Wettbewerb hervorgegangen, bietet das neue Quartier auf dem ehemaligen Gelände eines Kleingartenvereins Wohnraum für über 600 Menschen. Der großräumige Wohnhof, der sich typologisch an den Mietsblöcken aus der Zeit der Weimarer Republik orientiert, schafft mit seiner parkartigen Weite und den neu gepflanzten Großbäumen eine außerordentliche Aufenthaltsqualität. Die Mischung aus freifinanzierten und geförderten Wohnungen ist zukunftsweisend für urbanes Wohnen in Hamburg.",
-    "buildingType": "Wohnungsbau",
+    "building_type": "Wohnungsbau",
     "district": "Lokstedt",
     "address": "Julius-Vosseler-Straße 106-114, 22527 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -158,7 +158,7 @@
   {
     "title": "Alsterkant",
     "description": "Das Gebäudeensemble ist eine umschließende Blockrandbebauung unter Berücksichtigung der vorgegebenen Sichtachse. Durch ein Öffnen des Blockrands zur Alster ist der Durchblick und der Bezug zum Wasser gegeben. Um neben dem Erhalt der schützenswerten Bäume den wichtigen Bezug zu dem gegenüberliegenden Schumacher-Bau zu schaffen, tritt das Volumen auf der Nordseite in Teilen zurück.",
-    "buildingType": "Wohnungsbau",
+    "building_type": "Wohnungsbau",
     "district": "Ohlsdorf",
     "address": "Im Grünen Grunde / Am Hasenberge, 22337 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -170,7 +170,7 @@
   {
     "title": "Info Pavillon zum Hamburger Architektur Sommer 2023",
     "description": "Zirkularität gilt als einer der Schlüssel zum ressourcenschonenden Bauen. Zukünftig gilt es Gebäude so zu konstruieren, dass die Nutzung der darin verbauten Materialien über die Lebensdauer der Gebäude hinaus gewährleistet bleibt. Verbindungen und Fügungen von Baumaterialien müssen neu und reversibel gedacht werden.  Welche Materialstrategien kommen zum Einsatz? Am Beispiel des temporären Pavillons soll kreislaufgerechtes Bauen im Zeitraffer und Modellversuch anschaulich und nachvollziehbar werden.",
-    "buildingType": "Material-Plastik",
+    "building_type": "Material-Plastik",
     "district": "HafenCity",
     "address": "Magellan-Terassen",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -182,7 +182,7 @@
   {
     "title": "Kommunales Kultur- und Begegnungszentrum KörberHaus",
     "description": "Mitten in Bergdorf befindet sich das neue KörberHaus: ein offenes Haus mit Theater, Bibliothek, Café und multifunktionalen Veranstaltungsräumen für alle. Das Herzstück des Hauses, das lichtdurchflutete Foyer bietet den Besucher*innen einen schnellen Überblick über alle drei Geschosse. Lamellen aus Kupfer mit der typischen warmrötlichen Farbigkeit umhüllen das Gebäude und verbinden den Neubau mit der umgebenden Backsteinarchitektur. Über dem Wasser schwebende Terrassen bieten Ruheorte im Freien.",
-    "buildingType": "Kulturbau",
+    "building_type": "Kulturbau",
     "district": "Bergedorf",
     "address": "Holzhude 1, 21029 Hamburg-Bergedorf",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -194,7 +194,7 @@
   {
     "title": "ZINNERGIE – eine urbane Biogasanlage ",
     "description": "ZINNERGIE erforscht das Potenzial zirkulärer Konzepte durch den Bau einer kleinen urbanen Biogasanlage, die ausschließlich aus wiederverwendeten Materialien besteht. Entwickelt wurde eine robuste Struktur, die die Infrastruktur der Biogasanlage aufnimmt und darüber hinaus ausstellt. Ein großes Dach schützt vor Regen und definiert das Gesicht zur öffentlichen Straße. Die Offenheit der Struktur lädt die Menschen ein einzutreten. Der Platz davor wird aktiviert und in einen Ort des öffentlichen Lebens verwandelt.",
-    "buildingType": "Öffentlicher Pavillon",
+    "building_type": "Öffentlicher Pavillon",
     "district": "Wilhelmsburg",
     "address": "Am Veringhof 7",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -206,7 +206,7 @@
   {
     "title": "Baugemeinschaft „Tor zur Welt“",
     "description": "Für die Baugemeinschaft „Tor zur Welt“ wurde in der östlichen HafenCity am Eingang zum Quartier Baakenhafen eine achtgeschossige Wohnbebauung in Holzhybridbauweise mit 29 Wohneinheiten errichtet. Zielsetzung bei der Grundrissfindung war, eine möglichst robuste Grundstruktur zu schaffen, die in der Nutzung und bei einer möglichen späteren Umnutzung maximale Variabilität ermöglicht. Neben Aspekten der Nachhaltigkeit wurde durch ein regelmäßiges Grundrisssystem eine hohe Kosteneffizienz sichergestellt.\n ",
-    "buildingType": "Wohnungsbau",
+    "building_type": "Wohnungsbau",
     "district": "HafenCity",
     "address": "Baakenallee 8-10, 20457 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -218,11 +218,11 @@
   {
     "title": "Hammerbrooklyn Digital Pavillon",
     "description": "Translozierung eines Expo Pavillons von Mailand nach Hamburg: Das ursprüngliche Bauwerk des Architekten James Biber (NY) musste an die deutschen Bauvorschriften angepasst werden und bildet das Initialgebäude der digitalen Transformation des Großmarktgeländes. Spine Architects nahmen im Inneren räumliche Modifikationen für die neuen Nutzungen vor, ertüchtigte die thermische Hülle, errichtete die unteren beiden Ebenen in massiver, feuerbeständiger Stahlbetonbauweise und entwickelte drei neue Stahlbetontreppenhäuser.",
-    "buildingType": "Translozierung des USA-Expo Pavillons (2015) von Mailand nach Hamburg um Umnutzung als Büro- und Veranstaltungsgebäude",
+    "building_type": "Translozierung des USA-Expo Pavillons (2015) von Mailand nach Hamburg um Umnutzung als Büro- und Veranstaltungsgebäude",
     "district": "Hammerbrook",
     "address": "Stadtdeich 2-4, 20097 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
-    "architect": "Biber Architects (ursprünglicher Expo Pavillon Expo Mailand 2015),  \nSpine Architects GmbH (LP 5-7, künstlerische Oberbauleitung und Mieterausbauplanung)",
+    "architect": "Biber Architects (ursprünglicher Expo Pavillon Expo Mailand 2015), Spine Architects GmbH (LP 5-7, künstlerische Oberbauleitung und Mieterausbauplanung)",
     "year": "2021",
     "link": "https://www.tda-hamburg.de/?tx_asommer_tdaevent%5Baction%5D=show&tx_asommer_tdaevent%5Bcontroller%5D=Tda&tx_asommer_tdaevent%5Bevent%5D=368&cHash=d22aa2cffa7cf3f35df700d64cfc4f03",
     "id": 368
@@ -230,7 +230,7 @@
   {
     "title": "Lofthouse Stahlwiete 20",
     "description": "Das Grundstück befindet sich in Bahrenfeld nahe des beliebten Stadtteils Ottensen. In dem ehemals von Industrie geprägten Gebiet hat sich inzwischen ein lebendiges Miteinander von Gewerbe und Wohnen entwickelt. Im Innenhof des Grundstücks befindet sich ein unter Denkmalschutz stehendes Fabrikgebäude. Mit dem Neubau wird die Lücke in der Blockrandbebauung geschlossen. Gleichzeitig bleibt die Sichtverbindung durch den großzügigen zweigeschossigen Durchgang in den Innenhof und zum historische Fabrikgebäude bestehen.",
-    "buildingType": "Bürobau",
+    "building_type": "Bürobau",
     "district": "Bahrenfeld",
     "address": "Stahltwiete 20, 22761 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -242,7 +242,7 @@
   {
     "title": "Neubau für \"Der Player – Eat. Drink. Dance. Work\"",
     "description": "Ottensen ist ein Stadtteil mit vielen historischen Loftgebäuden. Der „Player“ ist ein Businessclub als kreativem Knotenpunkt mit Gastronomie-, Büro und Freizeitflächen mit ganzheitlichem Ansatz. Der Ziegelstein über dem Cortenstahl-Sockel wurde aus dem Rückbau von historischer Bausubstanz gewonnen. Die Fenster erinnern in Material und Proportion an ein Loftgebäude. Die Haupterschließung erfolgt über eine außenliegende Stahltreppe im Hinterhof, wie bei vielen Industriegebäuden aus dem 19. Jahrhundert üblich.",
-    "buildingType": "Bürogebäude mit Gastronomie",
+    "building_type": "Bürogebäude mit Gastronomie",
     "district": "Ottensen",
     "address": "Bahrenfelder Straße 322, 22765 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -254,7 +254,7 @@
   {
     "title": "Pergolenviertel",
     "description": "Das Pergolenviertel beschreibt den „Block im Grünen“ in der urbanen Umgebung zwischen der Hamburger City Nord und Barmbek. Der Entwurf basiert auf einem klaren Entwurfsraster, welches sich sowohl in der äußeren Fassadengestaltung als auch in der inneren Struktur des Baukörpers wiederfindet. Das städtebauliche Prinzip wird hier zum maßstabsübergreifenden Entwurfsthema.",
-    "buildingType": "Wohnungsbau",
+    "building_type": "Wohnungsbau",
     "district": "Winterhude",
     "address": "Feldahornweg, 22303 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -266,7 +266,7 @@
   {
     "title": "Sanierung und Erweiterung Kulturhaus Eidelstedt",
     "description": "Die Sanierung und Erweiterung des Kulturhauses Eidelstedt erfolgte nach den Plänen der Preisträger eines europaweit ausgeschriebenen Wettbewerbs. \nDurch die Auflösung des Baukörpers mithilfe einer großflächigen Glasfassade als Basis sowie durch einen Rücksprung, schwebt das Gebäude scheinbar über dem Platz und belebt diesen durch die hier vorgesehene Nutzung als Bücherei. Eine weiße Haut aus horizontalen, ungleichmäßig gegliederten Fassadenprofilen zitiert das früher vorhandene Sichtmauerwerk des Ursprungbaus.\n ",
-    "buildingType": "Kulturbau",
+    "building_type": "Kulturbau",
     "district": "Eidelstedt",
     "address": "Alte Elbgaustraße 12, 22523 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -278,7 +278,7 @@
   {
     "title": "Neubau Wohnheim Wasserschutzpolizei-Schule",
     "description": "Der trapezförmige Grundriss des viergeschossigen Gebäudes mit 18 Zimmern und Lehrräumen resultiert aus dem Grundstückszuschnitt. Firstlinie und Traufkante verlaufen straßenseitig parallel zum Worthdamm, sodass eine ruhige Westansicht entsteht. Mit bodentiefen, schlanken Fensteröffnungen und einer schnörkellosen Backsteinästhetik nimmt der Bau die Materialität des unter Denkmalschutz stehenden Hauptgebäudes auf und ist zugleich modernes hanseatisches Understatement.",
-    "buildingType": "Wohnheim, Bildung",
+    "building_type": "Wohnheim, Bildung",
     "district": "Veddel",
     "address": "Veddeler Damm 48, 20457 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -290,7 +290,7 @@
   {
     "title": "Der Allende-Platz – Neugestaltung des öffentlichen Raumes im Grindelviertel  ",
     "description": "Der Allende-Platz war ein von Gehwegen umgebener Parkplatz in Uninähe. Im Rahmen eines städtischen Sanierungsprogramms fand seine landschaftsarchitektonische Neugestaltung statt. Entstanden ist eine großzügige Aufenthaltsfläche ohne Verzehrzwang, mit ruhigeren Abschnitten und solchen, die dem prallen Leben direkt neben der Gastronomie zugeordnet sind. Mit Blick auf das Thema Nachhaltigkeit wurden in großem Stil örtlich vorhandene, historische Naturstein-Stufen und gebrauchtes Hamburger Pflaster wiederverwendet.",
-    "buildingType": "Öffentlicher Platz",
+    "building_type": "Öffentlicher Platz",
     "district": "Rotherbaum",
     "address": "Allende-Platz, 20146 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -302,7 +302,7 @@
   {
     "title": "Ehemaliger Getreidespeicher mit Verladebrücke Große Elbstraße 281",
     "description": "Umbau, Sanierung und Instandsetzung  des ehemaligen unter Denkmalschutz stehenden Getreidespeichers einschließlich Innenausbau und Hochwasserschutzanlage. ",
-    "buildingType": "Bürogebäude, Denkmalschutz",
+    "building_type": "Bürogebäude, Denkmalschutz",
     "district": "Altona",
     "address": "Große Elbstraße 281",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -314,7 +314,7 @@
   {
     "title": "Revitalisierung Congress Center Hamburg ",
     "description": "In den 1970er Jahren wurde das CCH als visionäres und gewagtes Bauvorhaben für die Stadt Hamburg errichtet. Nach über 40 Jahren bedurfte es einer Revitalisierung und Erweiterung. Dazu wurde 2014 ein Wettbewerb ausgelobt, den die Arbeitsgemeinschaft agnLeusmann/TIM HUPE Architekten für sich entscheiden konnte. Nach Abschluss der Baumaßnahmen verbindet nun ein neuer Mantelbau drei räumliche Situationen zu einer Sequenz: die Ankunft von Osten, die neue Eingangshalle und das zwei Ebenen höher gelegene Belvedere.",
-    "buildingType": "Kongressgebäude",
+    "building_type": "Kongressgebäude",
     "district": "St. Pauli",
     "address": "Congressplatz 1, 20355 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -326,7 +326,7 @@
   {
     "title": "Drei Schwestern – Genossenschaftlicher Wohnungsbau in heterogenem Quartier",
     "description": "Auf dem ursprünglich mit einem eingeschossigen Supermarkt bebauten Grundstück wurden drei rautenförmige Gebäude mit 37 Wohnungen und eine Kita für 34 Kinder realisiert. Die Gebäude sollten möglichst baugleich sein. Das Ensemble entwickelt sich mit einem fünfgeschossigen Baukörper zur Kreuzung und zwei viergeschossigen Häusern um die bestehenden Bäume herum. Es gibt einen großen Fahrradraum, keine Tiefgarage und nur ein Haus verfügt über einen Aufzug. In den Untergeschossen sind drei Wärmepumpen aktiv.",
-    "buildingType": "Genossenschaftlicher Wohnungsbau mit Kita",
+    "building_type": "Genossenschaftlicher Wohnungsbau mit Kita",
     "district": "Wilsdorf",
     "address": "Reeseberg 115, 21079 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -338,7 +338,7 @@
   {
     "title": "LEO – Leo-Leistikow-Allee",
     "description": "Das Projekt LEO an der Leo-Leistikow-Allee / Ecke Oberaltenallee bildet als kräftige Eckbebauung den Auftakt in das neue Wohnquartier Finkenau. Trotz seiner Lage an der achtspurigen Magistrale und den damit verbundenen Herausforderungen wurden hier 184 hochwertige Wohnungen – davon 55 öffentlich gefördert – und Gewerbeeinheiten geschaffen. Die Fassade mit den ausdrucksstarken, variierenden Ziegelstrukturen erinnert an loftartige Gebäude zu Beginn des vergangenen Jahrhunderts.",
-    "buildingType": "Wohnungsbau",
+    "building_type": "Wohnungsbau",
     "district": "Uhlenhorst",
     "address": "Leo-Leistikow-Allee 2-8 / Oberaltenallee 46-52 / Martha-Muchow-Weg 15, 22081 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -350,7 +350,7 @@
   {
     "title": "Neugestaltung der Fußgängerpromenade am Serrahn",
     "description": "Die alte ca.13 Meter breite Hafenkante Bergedorfs wird durch ihre zonierte Neugestaltung großzügiger und mit einem Gewinn an Aufenthaltsqualität gestaltet.  Entlang der Bebauung ist die Sondernutzung für Außengastronomie zugelassen, die mittlere Zone wird Fußgänger*innen als Flaniermeile vorbehalten, während die Wasserkante weitgehend offen gestaltet und von privaten Nutzungen freigehalten wird. Historische Bezüge werden durch den Hafenkran und Schutenbänke erlebbar gemacht. ",
-    "buildingType": "Fußgängerpromenade",
+    "building_type": "Fußgängerpromenade",
     "district": "Bergedorf",
     "address": "Serrahnstraße 1 bis 9, 21029, Bergedorf",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -362,7 +362,7 @@
   {
     "title": "Roots – ein Holzhochhaus in der HafenCity",
     "description": "Der Trend zur ökologischen und nachhaltigen Architektur manifestiert sich auch im Baumaterial Holz. Am Beispiel von Roots - dem ersten und derzeit höchsten Holzhochhaus Deutschlands, welches aktuell in der Hamburger HafenCity entsteht – wird auf den Prozess einer nachhaltigen Hochhauskonzeption eingegangen und über Herausforderungen, Erfahrungen und Lehren aus der Perspektive des Planers und des Holzbauunternehmers reflektiert.",
-    "buildingType": "Städtebau und Wohnen",
+    "building_type": "Städtebau und Wohnen",
     "district": "HafenCity",
     "address": "Liselotte-von-Rantzau-Platz/ Lucy-Borchardt-Straße 2 – 8,  20457 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -374,7 +374,7 @@
   {
     "title": "Sanierung und Erweiterung der Schule an der Isebek",
     "description": "Für die Erweiterung der Grundschule wurde das denkmalgeschützte Gebäude von Fritz Schumacher von Zubauten aus den 1970er-Jahren befreit und behutsam saniert. Ein neuer kompakter Baukörper ergänzt das ursprünglich als Hilfsschule geplante Gebäude von 1927 entlang der Bundesstraße. Während im Bestandsbau originale Bauteile und Farben unter den alten Schichten wieder hervorgeholt wurden, überrascht der ansonsten ruhig anmutende Neubau seinerseits mit einem innenliegenden zweigeschossigen polygonalen Pausenraum.",
-    "buildingType": "Schulbau",
+    "building_type": "Schulbau",
     "district": "Eimsbüttel",
     "address": "Bundesstraße 94, 20144 Hamburg",
     "category": "Architektur und Stadtplanung – Projekte",
@@ -386,7 +386,7 @@
   {
     "title": "Fleetinsel: Instandsetzung und denkmalgerechte Sanierung (1994)",
     "description": "Die Speicher und die Wohn- und Kontorhäuser auf der Fleetinsel zählen zu den ältesten Gebäuden der Innenstadt. In den 1980er-Jahren waren sie vom Abriss bedroht, wurden aber durch künstlerische Zwischennutzung, phantasievolle Protestaktionen und das Konzept eines kunstinteressierten Anwalts gerettet. Heute zählt die Fleetinsel mit ihren Ateliers, Galerien und dem Künstlerhaus WESTWERK zu den wichtigsten kulturellen Anziehungspunkten Hamburgs.",
-    "buildingType": "Speicher- und Kontorbauten",
+    "building_type": "Speicher- und Kontorbauten",
     "district": "Neustadt",
     "address": "Admiralitätstrasse 71-76, Michaelisbrücke 1-3, 20459 Hamburg",
     "category": "Architektur und Stadtplanung – Zeitzeugen",
@@ -398,7 +398,7 @@
   {
     "title": "Neuer Dovenhof (1994)",
     "description": "Nur wenige Situationen in der Hamburger Innenstadt sind von einer solchen städtebaulichen Vielfalt gekennzeichnet wie die Bebauung an der Willy-Brandt-Straße zwischen Rödingsmarkt und Deichtorhallen, zwischen Chilehaus und Nikolaikirche sowie die unmittelbar angrenzenden Bereiche. An der Schnittstelle zwischen der vielbefahrenen Willy-Brandt-Straße und der ehemals wichtigen Verbindungsstraße Brandstwiete, zwischen Jungfernstieg und Speicherstadt, steht das Kontorhaus Neuer Dovenhof. ",
-    "buildingType": "Bürobau",
+    "building_type": "Bürobau",
     "district": "Neustadt",
     "address": "Brandstwiete 1, 20457 Hamburg",
     "category": "Architektur und Stadtplanung – Zeitzeugen",
@@ -410,7 +410,7 @@
   {
     "title": "Danske Hus (1993)",
     "description": "Ein Neubau in unmittelbarer Nachbarschaft zu den größten Leistungen der Hamburger Kontorhausarchitektur – dem Chilehaus, weltliches Wahrzeichen der Stadt Hamburg, dem Sprinkenhof und dem Meßberghof – stellt natürlich eine besondere Herausforderung dar. Um den Solitär am südlichen Rand des Kontorhausviertels doch ganz eindeutig diesem zuzuordnen, haben wir uns von vornherein für den Stein des Chilehauses entschieden, den Backstein dritter Wahl. Die einfache Grundrissform aus Kreis und Quadrat bestimmt die Gestalt.",
-    "buildingType": "Bürobau",
+    "building_type": "Bürobau",
     "district": "Altstadt",
     "address": "Meßberg 4, 20457 Hamburg",
     "category": "Architektur und Stadtplanung – Zeitzeugen",
@@ -422,7 +422,7 @@
   {
     "title": "Servicewohnen St. Pauli, Am Elbpark (2002)",
     "description": "Die Schließung des Hafenkrankenhauses vor 25 Jahren löste große Proteste aus. Das Haus mit über 200 eigenständigen Wohnungen der SAGA-GWG entstand im Rahmen des geförderten Wohnungsbaus mit einem Anteil freier Mietungen. Spannend ist die soziale Qualität der heutigen Wohnanlage. Dazu kommen die verbliebenen Bauten des Hafenkrankenhauses im Süden mit dem Cafe mit Herz und vielen sozialen, therapeutischen und medizinischen Angeboten – alles mit Ausblick auf die Großstadt und das Bismarck-Denkmal.",
-    "buildingType": "Senioren-Wohnungen",
+    "building_type": "Senioren-Wohnungen",
     "district": "St. Pauli",
     "address": "Zirkusweg 11, 20359 Hamburg",
     "category": "Architektur und Stadtplanung – Zeitzeugen",

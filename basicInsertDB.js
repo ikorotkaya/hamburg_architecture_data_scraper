@@ -27,7 +27,7 @@ require("dotenv").config();
     const values = [
       item.title,
       item.description,
-      item.buildingType,
+      item.building_type,
       item.district,
       item.category,
       item.address,
@@ -48,3 +48,16 @@ require("dotenv").config();
 
   pool.end();
 })();
+
+// CREATE TABLE projects (
+//   id SERIAL PRIMARY KEY,
+//   title TEXT,
+//   description TEXT,
+//   building_type TEXT,
+//   district TEXT,
+//   category TEXT,
+//   address TEXT,
+//   architect TEXT,
+//   year TEXT, -- Change the data type to match your data
+//   link TEXT
+// );
