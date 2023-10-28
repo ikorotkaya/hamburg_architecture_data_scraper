@@ -18,13 +18,13 @@ require("dotenv").config();
   const client = await pool.connect();
 
   data.forEach(async (item) => {
-    const text = `
+    const insertQuery = `
         INSERT INTO projects
           (title, description, building_type, district, category, address, architect, year, link, id)
         VALUES
           ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)`;
 
-    const values = [
+    const insertValues = [
       item.title,
       item.description,
       item.building_type,
@@ -37,15 +37,15 @@ require("dotenv").config();
       item.id,
     ];
 
-    console.log(item.id);
+    console.log(`Inserting data for ID: ${item.id}`);
 
     try {
-      await client.query(text, values);
+      await client.query(insertQuery, insertValues);
     } catch (err) {
       console.error("Error inserting data:", err);
     }
   });
-
+  client.release();
   pool.end();
 })();
 
@@ -58,6 +58,6 @@ require("dotenv").config();
 //   category TEXT,
 //   address TEXT,
 //   architect TEXT,
-//   year TEXT, -- Change the data type to match your data
+//   year TEXT,
 //   link TEXT
 // );
