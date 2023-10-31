@@ -1,4 +1,4 @@
-const {Sequelize, DataTypes} = require("sequelize");
+const { Sequelize, DataTypes } = require("sequelize");
 const fs = require("fs");
 
 const sequelize = new Sequelize(
@@ -40,38 +40,3 @@ const Project = sequelize.define("project", {
     sequelize.close();
   }
 })();
-
-
-
-
-
-
-// const sequelize = new Sequelize(
-//   process.env.DB_NAME,
-//   process.env.DB_USER,
-//   process.env.DB_PASSWORD,
-//   {
-//     host: process.env.DB_HOST,
-//     dialect: "postgres",
-//     port: 5432,
-//   }
-// );
-
-// const Project = sequelize.define("Project", {
-//   title: Sequelize.STRING,
-//   description: Sequelize.TEXT,
-//   buildingType: Sequelize.STRING,
-//   district: Sequelize.STRING,
-//   category: Sequelize.STRING,
-//   address: Sequelize.STRING,
-//   architect: Sequelize.STRING,
-//   year: Sequelize.INTEGER,
-//   link: Sequelize.STRING,
-//   id: {
-//     type: Sequelize.INTEGER,
-//     primaryKey: true,
-//     autoIncrement: true,
-//   },
-// });
-
-
