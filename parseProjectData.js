@@ -1,5 +1,7 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
+const path = require("path");
+const download = require("image-downloader");
 const fs = require("fs");
 
 const baseUrl = "https://www.tda-hamburg.de";
@@ -50,8 +52,6 @@ const parseProjectData = async (link) => {
   if (imageSrc !== undefined) {
     imageUrl = baseUrl + imageSrc;
     if (imageUrl !== "") {
-      const path = require("path");
-      const download = require("image-downloader");
       const options = {
         url: imageUrl,
         dest: path.join(__dirname, "images", projectData.id + ".jpg"),
