@@ -22,21 +22,24 @@ const readPDFFiles = async () => {
     const finishIndex = projectText.search(finishIndexRegex);
     if (startIndex !== -1 && finishIndex !== -1) {
       projectText = projectText.substring(startIndex, finishIndex);
-      const project = {
-        description: projectText,
-        file: pdfFile,
-      };
-      projects.push(project);
+      const descriptionParts = projectText.split("\n\n");
+
+      for (const descriptionPart of descriptionParts) {
+        if (descriptionPart.length > 0) {
+          const project = {
+            description: descriptionPart.replace(/\n/g, " "),
+            file: pdfFile,
+          };
+          projects.push(project);
+        }
+      }
     }
   };
 
   for (const pdfFile of pdfFiles) {
     const pdfFilePath = path.join(pdfFolder, pdfFile);
-
     const data = await pdf(fs.readFileSync(pdfFilePath));
-
     const pdfText = data.text;
-
     let projectText = pdfText;
 
     if (pdfFile.includes("2015") || pdfFile.includes("2014")) {
@@ -65,6 +68,9 @@ const readPDFFiles = async () => {
 };
 
 const writeJSONFile = async () => {
+  // const projectsWithIndex = projects.map((project, index) => {
+  //   return { ...project, index };
+  // });
   await writeFile(outputJSONFile, JSON.stringify(projects, null, 2));
 };
 
@@ -74,4 +80,3 @@ const main = async () => {
 };
 
 main();
-
