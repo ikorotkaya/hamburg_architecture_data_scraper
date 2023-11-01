@@ -7,6 +7,7 @@ const pdfFolder = "./downloaded_pdfs";
 const outputJSONFile = "parsed_pdf_data.json";
 
 const projects = [];
+const result = [];
 
 const readPDFFiles = async () => {
   const pdfFiles = fs.readdirSync(pdfFolder);
@@ -27,7 +28,7 @@ const readPDFFiles = async () => {
       for (const descriptionPart of descriptionParts) {
         if (descriptionPart.length > 0) {
           const project = {
-            description: descriptionPart.replace(/\n/g, " "),
+            description: descriptionPart.replace(/\s+/g, " ").replace(/\n/g, " "),
             file: pdfFile,
           };
           projects.push(project);
@@ -56,22 +57,75 @@ const readPDFFiles = async () => {
         /Einzelbauten\n\n1/i,
         /\n\nTouren\n\n/i
       );
-    } else {
+    } else if (pdfFile.includes("2016")) {
       extractProject(
         pdfFile,
         projectText,
         /Impressum/i,
         /Architektur und Stadtplanung\nTo/i
       );
+    } else {
+      extractProject(
+        pdfFile,
+        projectText,
+        /Impressum/i,
+        /Architektur und Stadtplanung\nZeitzeugen/i
+      );
+    }
+
+    for (const project of projects) {
+      if (project.file.includes("2018") || project.file.includes("2019")) {
+        const firstTwoSymbols = project.description.substring(0, 2);
+        if (firstTwoSymbols.includes(" ")) {
+          const projectPDFNumber = parseInt(project.description[0]);
+          const newNumber = projectPDFNumber - 1
+          project.descriptionNew = project.description.substring(project.description.search(` ${newNumber} `), project.description.length);
+          project.descriptionOld = project.description.substring(0, project.description.search(` ${newNumber} `));
+        } else {
+          const projectPDFNumber = parseInt(project.description.substring(0, 2));
+          const newNumber = projectPDFNumber - 1
+          project.descriptionNew = project.description.substring(project.description.search(` ${newNumber} `), project.description.length);
+          project.descriptionOld = project.description.substring(0, project.description.search(` ${newNumber} `));
+        }
+
+      } else if (project.file.includes("2022") || project.file.includes("2023")) {
+        const firstTwoSymbols = project.description.substring(0, 2);
+        if (firstTwoSymbols.includes(" ")) {
+          const projectPDFNumber = parseInt(project.description[0]);
+          const newNumber = projectPDFNumber + 1
+          project.descriptionNew = project.description.substring(project.description.search(` ${newNumber} `), project.description.length);
+          project.descriptionOld = project.description.substring(0, project.description.search(` ${newNumber} `));
+        } else {
+          const projectPDFNumber = parseInt(project.description.substring(0, 2));
+          const newNumber = projectPDFNumber + 1
+          project.descriptionNew = project.description.substring(project.description.search(` ${newNumber} `), project.description.length);
+          project.descriptionOld = project.description.substring(0, project.description.search(` ${newNumber} `));
+        }
+      } 
+      
+    }
+    console.log("Parsed");
+    
+  }
+  
+  for (const project of projects) {
+    if (project.descriptionNew) {
+      result.push({description: project.descriptionNew, file: project.file});
+
+      if (project.descriptionOld) {
+        result.push({description: project.descriptionOld, file: project.file});
+      }
+    }
+    else {
+      result.push(project);
     }
   }
+
+  console.log(result.length, "projects parsed.");
 };
 
 const writeJSONFile = async () => {
-  // const projectsWithIndex = projects.map((project, index) => {
-  //   return { ...project, index };
-  // });
-  await writeFile(outputJSONFile, JSON.stringify(projects, null, 2));
+  await writeFile(outputJSONFile, JSON.stringify(result, null, 2));
 };
 
 const main = async () => {
