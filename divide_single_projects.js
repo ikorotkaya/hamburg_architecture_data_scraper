@@ -10,10 +10,11 @@ function extractKeyValuePairs(description) {
   for (const project of projects) {
     const pdfName = project.pdfName;
     if (pdfName.includes("2014")) {
+      const startIndexDescription = description.search(/ /i);
       const finishIndexDescription = description.search(/Führungen:|Termine:/i);
-      if (finishIndexDescription !== -1) {
-        const descriptionText = description.substring(0, finishIndexDescription);
-        keyValuePairs.description = descriptionText;
+      if (finishIndexDescription !== -1 && startIndexDescription !== -1) {
+        const descriptionText = description.substring(startIndexDescription, finishIndexDescription);
+        keyValuePairs.description = descriptionText.replace(/\s+/, "").replace(/\s+$/, "");
       }
       const startIndexArch = description.search(/Führungen: /i);
       const finishIndexArch = description.search(/Termine:/i);
@@ -49,10 +50,11 @@ function extractKeyValuePairs(description) {
   }
   
   // Extract the description value
+  const startIndexDescription = description.search(/ /i);
   const finishIndexDescription = description.search(/Architekt:|Architekten:|Architekturbüro:|Architekturbüros:|Planungsbüros:/i);
-  if (finishIndexDescription !== -1) {
-    const descriptionText = description.substring(0, finishIndexDescription);
-    keyValuePairs.description = descriptionText.replace(/\s+$/, "").replace(/^\w+\s*/, "");
+  if (finishIndexDescription !== -1 && startIndexDescription !== -1) {
+    const descriptionText = description.substring(startIndexDescription, finishIndexDescription);
+    keyValuePairs.description = descriptionText.replace(/\s+/, "").replace(/\s+$/, "");
   }
 
 
