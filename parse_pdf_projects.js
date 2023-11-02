@@ -29,7 +29,7 @@ const readPDFFiles = async () => {
         if (descriptionPart.length > 0) {
           const project = {
             description: descriptionPart.replace(/\s+/g, " ").replace(/\n/g, " "),
-            file: pdfFile,
+            pdfName: pdfFile,
           };
           projects.push(project);
         }
@@ -74,32 +74,36 @@ const readPDFFiles = async () => {
     }
 
     for (const project of projects) {
-      if (project.file.includes("2018") || project.file.includes("2019")) {
+      if (project.pdfName.includes("2018") || project.pdfName.includes("2019")) {
         const firstTwoSymbols = project.description.substring(0, 2);
         if (firstTwoSymbols.includes(" ")) {
           const projectPDFNumber = parseInt(project.description[0]);
           const newNumber = projectPDFNumber - 1
-          project.descriptionNew = project.description.substring(project.description.search(` ${newNumber} `), project.description.length);
-          project.descriptionOld = project.description.substring(0, project.description.search(` ${newNumber} `));
+          const projectIndex = ` ${newNumber} `;
+          project.descriptionNew = project.description.substring(project.description.search(projectIndex), project.description.length).replace(projectIndex, "");
+          project.descriptionOld = project.description.substring(0, project.description.search(projectIndex));
         } else {
           const projectPDFNumber = parseInt(project.description.substring(0, 2));
-          const newNumber = projectPDFNumber - 1
-          project.descriptionNew = project.description.substring(project.description.search(` ${newNumber} `), project.description.length);
-          project.descriptionOld = project.description.substring(0, project.description.search(` ${newNumber} `));
+          const newNumber = projectPDFNumber - 1;
+          const projectIndex = ` ${newNumber} `;
+          project.descriptionNew = project.description.substring(project.description.search(projectIndex), project.description.length).replace(projectIndex, "");
+          project.descriptionOld = project.description.substring(0, project.description.search(projectIndex));
         }
 
-      } else if (project.file.includes("2022") || project.file.includes("2023")) {
+      } else if (project.pdfName.includes("2022") || project.pdfName.includes("2023")) {
         const firstTwoSymbols = project.description.substring(0, 2);
         if (firstTwoSymbols.includes(" ")) {
           const projectPDFNumber = parseInt(project.description[0]);
           const newNumber = projectPDFNumber + 1
-          project.descriptionNew = project.description.substring(project.description.search(` ${newNumber} `), project.description.length);
-          project.descriptionOld = project.description.substring(0, project.description.search(` ${newNumber} `));
+          const projectIndex = ` ${newNumber} `;
+          project.descriptionNew = project.description.substring(project.description.search(projectIndex), project.description.length).replace(projectIndex, "");
+          project.descriptionOld = project.description.substring(0, project.description.search(projectIndex));
         } else {
           const projectPDFNumber = parseInt(project.description.substring(0, 2));
-          const newNumber = projectPDFNumber + 1
-          project.descriptionNew = project.description.substring(project.description.search(` ${newNumber} `), project.description.length);
-          project.descriptionOld = project.description.substring(0, project.description.search(` ${newNumber} `));
+          const newNumber = projectPDFNumber + 1;
+          const projectIndex = ` ${newNumber} `;
+          project.descriptionNew = project.description.substring(project.description.search(projectIndex), project.description.length).replace(projectIndex, "");
+          project.descriptionOld = project.description.substring(0, project.description.search(projectIndex));
         }
       } 
       
@@ -110,10 +114,10 @@ const readPDFFiles = async () => {
   
   for (const project of projects) {
     if (project.descriptionNew) {
-      result.push({description: project.descriptionNew, file: project.file});
+      result.push({description: project.descriptionNew.replace(/^\d+\s+/, ""), pdfName: project.pdfName});
 
       if (project.descriptionOld) {
-        result.push({description: project.descriptionOld, file: project.file});
+        result.push({description: project.descriptionOld.replace(/^\d+\s+/, ""), pdfName: project.pdfName});
       }
     }
     else {
@@ -122,6 +126,7 @@ const readPDFFiles = async () => {
   }
 
   console.log(result.length, "projects parsed.");
+
 };
 
 const writeJSONFile = async () => {
