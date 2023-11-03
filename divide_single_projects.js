@@ -67,9 +67,11 @@ function divideProjectsInfo() {
 
   for (const project of projects) {
     const dividedProject = extractKeyValuePairs(project.description.replace(/^\d+\s+/, ""));
-    dividedProject.pdfName = project.pdfName;
-    dividedProject.programmYear = project.pdfName.substring(4, 8);
-    dividedProjects.push(dividedProject);
+    if (dividedProject.architect !== undefined && dividedProject.address !== undefined) {
+      dividedProject.pdfName = project.pdfName;
+      dividedProject.programmYear = project.pdfName.substring(4, 8);
+      dividedProjects.push(dividedProject);
+    }
   }
 
   fs.writeFileSync(outputJSONFile, JSON.stringify(dividedProjects));
