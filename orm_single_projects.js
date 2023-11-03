@@ -20,7 +20,7 @@ const Project = sequelize.define("project", {
     await sequelize.sync();
     console.log("Database synchronized");
 
-    const rawData = fs.readFileSync("allProjectData.json");
+    const rawData = fs.readFileSync("2023_projects.json");
     const projectsData = JSON.parse(rawData);
 
     for (const item of projectsData) {
