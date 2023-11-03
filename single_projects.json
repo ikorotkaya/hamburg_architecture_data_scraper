@@ -1,10 +1,5 @@
 [
   {
-    "district": "Architektur",
-    "pdfName": "TDA_2014_PROGRAMMHEFT.PDF",
-    "programmYear": "2014"
-  },
-  {
     "description": "bahn_hoefe, Umbau, Erweiterung und Nutzungs- änderung der ehemaligen Reichsbahndirektion Der historische Gebäudekomplex der ehemaligen Bahndirek- tion am Bahnhof Altona wurde vollständig saniert und zu einem vitalen, offenen Hofkonzept erweitert und umgebaut: die „bahn _hoefe“. Neben Apartments für Studenten, einer Musicalschule, Büroflächen für die Kreativwirtschaft und einer Hochschule für Gestaltung werden im Erdgeschoss Laden- geschäfte und gastronomische Betriebe einziehen. Ein Neubau für eine Kita und einige Wohnungen vervollständigen die Blockrandstruktur im Süden des Ensembles.",
     "architect": "Jo Landwehr und Daisy Dewanto, LH Architekten ",
     "address": "Am Felde 58, 22765 Hamburg",
@@ -211,11 +206,6 @@
     "district": "Wilhelmsburg",
     "pdfName": "TDA_2014_PROGRAMMHEFT.PDF",
     "programmYear": "2014"
-  },
-  {
-    "district": "Architektur",
-    "pdfName": "TDA_2015_4MB.PDF",
-    "programmYear": "2015"
   },
   {
     "description": "Aufstockung der Orchideenterrassen Für vier mehrgeschossige Wohnbauten aus den 50er Jahren galt es eine Lösung für eine höhere Ausnutzung durch Auf- stockung der bestehenden Gebäude zu erarbeiten. Es wurden sechs eingeschossige Wohnungen und zwölf zweigeschossige Maisonette-Wohnungen geschaffen. Die Durchführung durfte das Sondereigentum des Bestandes nicht berühren und musste eigenständig gegründet werden. Die Gebäude wurden mit einer Stahlbetonkonstruktion tischartig überbaut. Die Aufsto- ckung erfolgte in Leichtbauweise aus vorgefertigten Modulen.",
@@ -465,13 +455,6 @@
     "pdfName": "TDA_2015_4MB.PDF",
     "programmYear": "2015"
   },
-  { "district": "T", "pdfName": "TDA_2015_4MB.PDF", "programmYear": "2015" },
-  { "pdfName": "TDA_2016_PROGRAMM.PDF", "programmYear": "2016" },
-  {
-    "district": "P",
-    "pdfName": "TDA_2016_PROGRAMM.PDF",
-    "programmYear": "2016"
-  },
   {
     "description": "Cafeteria Heilwig-Gymnasium Der Erweiterungsbau der Cafeteria grenzt an ein denk mal- geschütztes Ensemble der Nachkriegsmoderne aus den 1960er Jahren, entworfen von Paul Seitz. Der Neubau ordnet sich in Kubatur und Fassade diesem Ensemble unter und ist dabei so eigenständig, dass der Bestand wei ter hin erkennbar bleibt. Ein Teil des Neubaus schiebt sich in den Bestand der Pausenhalle und bleibt auch dort ablesbar. Der Innenraum des dunklen Kubus überrascht mit weißen Oberflächen und einem lichtdurchfluteten, freundlichen Raumeindruck.",
     "architect": "tun-architektur Tommy Müller / Nathalie Dudda Partnerschaftsgesellschaft mbB",
@@ -713,24 +696,6 @@
     "programmYear": "2016"
   },
   {
-    "address": "Spielbudenplatz 20–24, direkt am Eingang des Klubhauses",
-    "district": "St.",
-    "description": "Pauli Klubhaus St. Pauli Das Klubhaus St. Pauli verfolgt das Ziel, das Livemusik- angebot auf der Reeperbahn zu ergänzen und mit seinen vielfältigen kulturellen Nutzungen die Ausgehmeile für deren Besucher noch attraktiver zu gestalten. Die Fassade des Klubhauses wurde entworfen unter der Prämisse, die Integration von Medien in die Architektur neu zu denken. Eigens konzipierte Metallgittermodule, mit LED-Technik bestückt, sind in unterschiedlichen Ebenen vor der eigent- lichen Gebäudehaut angeordnet und generieren eine dreidimensionale Topografie.",
-    "pdfName": "TDA_2016_PROGRAMM.PDF",
-    "programmYear": "2016"
-  },
-  {
-    "district": "T",
-    "pdfName": "TDA_2016_PROGRAMM.PDF",
-    "programmYear": "2016"
-  },
-  { "pdfName": "TDA_2017_PROGRAMMHEFT.PDF", "programmYear": "2017" },
-  {
-    "district": "Architektur",
-    "pdfName": "TDA_2017_PROGRAMMHEFT.PDF",
-    "programmYear": "2017"
-  },
-  {
     "description": "Kindercampus Anton-Rée-Schule Für die Grundschule Anton-Rée-Schule in Allermöhe (Ursprungsbau Hensel + Bechtloff Architekten) wurde ein Erweiterungsbau mit Mensa/Multifunktionsraum, Unter- richtsräumen und Flächen für die Ganztagsbetreuung geplant, um die ehemals zwei Standorte der Schule zusam- menzulegen. Eine weit spannende Holzbinderkonstruktion, die das Dach der Mensa trägt, großflächige Verglasungen sowie ein aufgeständerter Klassentrakt prägen das Gebäude und bilden ein offenes und transparentes Erdgeschoss aus.",
     "architect": "acollage. architektur urbanistik; hunck+lorenz freiraumplanung Landschaftsarchitekten BDLA",
     "address": "Anton-Rée-Schule, Parkplatz vor dem Schulhof, neben der Turnhalle, am Henriette-Herz-Ring",
@@ -799,13 +764,6 @@
     "architect": "Dohse Architekten",
     "address": "Haupteingang Gymnasium Alstertal, Erdkampsweg 89",
     "district": "Fuhlsbüttel",
-    "pdfName": "TDA_2017_PROGRAMMHEFT.PDF",
-    "programmYear": "2017"
-  },
-  {
-    "description": "Elbphilharmonie Die Elbphilharmonie ist nicht nur ein Haus für die Musik mit einer Konzerthalle für 2100 und einem Kammermusik- saal für 550 Besucher. Die beiden übereinander gesta- pelten Architekturen des Kaispeichers und der Philharmonie beherbergen außerdem eine dichte Mischung urbaner Nutzungen: Übungsräume, Wohnungen, Bars, ein Restau- rant, ein Hotel, einen Shop sowie Parkplätze. Die Plaza, eine Terrasse mit Blick über Hamburg und den Hafen, steht allen Menschen offen – als neues Angebot im kulturellen und alltäglichen Leben der Stadt.",
-    "architect": "Herzog & de Meuron Ltd.",
-    "district": "HafenCity",
     "pdfName": "TDA_2017_PROGRAMMHEFT.PDF",
     "programmYear": "2017"
   },
@@ -1010,12 +968,6 @@
     "programmYear": "2017"
   },
   {
-    "district": "Z",
-    "pdfName": "TDA_2017_PROGRAMMHEFT.PDF",
-    "programmYear": "2017"
-  },
-  { "pdfName": "TDA_2018_PROGRAMMHEFT.PDF", "programmYear": "2018" },
-  {
     "description": "Studierendenwohnanlage Sophie-Schoop-Weg Der Mangel an bezahlbarem Wohnraum in Hamburg ist besonders für Studierende ein Problem. Um bezahlbaren Wohnraum zu realisieren, müssen problematische und dadurch kostengünstige Grundstücke, wie hier z.B. in lärmintensiver Lage, durch kluge städtebauliche und archi- tektonische Konzepte qualifiziert werden. Der Neubau des Studierendenwerks Hamburg mit 266 Plätzen in verschiedensten individuellen Wohnformen ist ein Pionier- projekt am Tor zum neuen Stadtteil Oberbillwerder.",
     "architect": "LRW Architekten und Stadtplaner Loosen, Rüschoff + Winkler PartG mbB (LP 1 bis 5), SWP-Architekten Göttsche-Hoffmann-Partner GbR (LP 6 bis 8)",
     "address": "Sophie Schoop Weg 2, Haupteingang Architektur und Stadtplanung Projekte P",
@@ -1146,6 +1098,7 @@
   {
     "description": "Stadtraumerneuerung in der Osterstraße Die Osterstraße ist das quirlige Zentrum Eimsbüttels – ein bunter Mix aus Einzelhandel und Gastronomie. In die Jahre gekommen war sie dennoch, stammten die Grundzüge der Straßenraumgestaltung noch aus den 1950 /1960er Jahren. Ein Bedürfnis nach einem urbanen Straßenraumflair war in den Bürgerbeteiligungen über- deutlich geworden. Es ergab sich die Chance zur vollständi- gen Neuordnung, wobei das in der Verkehrsplanung ge- wohnte Denkmuster, die Fahrbahn als Hauptfläche und der Bürgersteig als Nebenfläche, hier invers entwickelt ist. Architekten / Ingenieure: Kontor Freiraumplanung, ARGUS Stadt und Verkehr, SBI Beratende Ingenieure, Steg Hamburg mbH",
     "architect": "Thomas Tradowsky, Kontor Freiraumplanung ",
+    "address": "Fanny-Mendelssohn-Platz, am Eingang zur U-Bahnhaltestelle",
     "district": "Eimsbüttel",
     "pdfName": "TDA_2018_PROGRAMMHEFT.PDF",
     "programmYear": "2018"
@@ -1318,7 +1271,6 @@
     "pdfName": "TDA_2018_PROGRAMMHEFT.PDF",
     "programmYear": "2018"
   },
-  { "pdfName": "TDA_2019_PROGRAMMHEFT.PDF", "programmYear": "2019" },
   {
     "description": "Neue Mitte Altona, Kopfgebäude Südblock, Harkortstraße Der Neubau an der Harkortstraße versteht sich als südli- cher Kopf des neuen Stadtteils Mitte Altona. Die Südfassade des Gebäudes bildet dabei die Rückwand, der sieben- geschossige, höhere Gebäudeteil betont den südöstlichen Abschluss des Quartiers, der niedrigere und gestaffelte westliche Teil leitet in das neue Quartier. Die gesamte Erd- geschosszone wird gastronomisch genutzt. Die darüber liegenden Wohnungen mit Balkonen oder Loggien orientie- ren sich nach Süden. Als Material wurde ein sandfarbener Backstein ausgewählt.",
     "architect": "KPW Papay Warncke und Partner Architekten mbB",
@@ -1355,13 +1307,6 @@
     "description": "Revitalisierung der ehemaligen Spiegel-Insel, Hamburg Heights Die beiden Hochhäuser wurden durch Werner Kallmorgen zwischen 1965 –69 für den Spiegel-Verlag und IBM als großstädtisches Ensemble des Wiederaufbaus konzipiert. Sie folgen dem Konzept des „fließenden“ Raumes an der damals neuen Ost-West-Straße. Zusammen mit einer neuen Randbebauung entstand eine neue Plaza, welche die Hochhäuser mit einer modernen Einfassung mit unter- schiedlichen Nutzungen wieder in die Stadt einbindet.",
     "architect": "Winking – Froh Architekten GmbH Height 1: LP 1–5; Height 2,3,4 und 5: LP 1–4, teilweise 5 / Leitdetails)",
     "address": "Eingang Brandstwiete 3",
-    "district": "Altstadt",
-    "pdfName": "TDA_2019_PROGRAMMHEFT.PDF",
-    "programmYear": "2019"
-  },
-  {
-    "description": "Bucerius Kunst Forum im umgestalteten Baublock Am Alten Wall Mit dem Neubau Alter Wall 2–32 kehrt die Geschäftigkeit in den Straßenzug neben dem Rathaus zurück. Der Gebäu- deblock hinter der denkmalgeschützten Fassade wird derzeit gänzlich neu organisiert: Anstelle von Büros werden im Erdgeschoss künftig wieder Geschäfte, Cafés und die neuen Ausstellungsflächen des Bucerius Kunst Forums zum Flanieren und Verweilen einladen. Auf insgesamt vier Stockwerken bietet das Kunstmuseum neben Ausstellungs- sälen ein Auditorium, eine Malschule und einen Shop.",
-    "architect": "gmp · Architekten von Gerkan, Marg und Partner",
     "district": "Altstadt",
     "pdfName": "TDA_2019_PROGRAMMHEFT.PDF",
     "programmYear": "2019"
@@ -1433,6 +1378,7 @@
   {
     "description": "Bürogebäude im Rütersbarg Der im Norden Hamburgs gelegene, dreigeschossige Büro- bau füllt eine außergewöhnlich schlanke Baulücke in einem aus nur wenigen Gebäuden bestehenden Gewerbegebiet. Der Baukörper fügt sich auf unaufgeregte und respektvolle Weise in seine Nachbarschaft ein und versucht die vor- gefundene Situation logisch zu ergänzen. Die verwendeten Materialien, Farben, Formen und Gestaltungselemente sind sorgfältig auf die Umgebung abgestimmt. Im Inneren des Gebäudes können bis zu sechs autarke Nutzungsein- heiten untergebracht werden.",
     "architect": "Andreas Pflügelbauer",
+    "address": "Rütersbarg 52, vor dem Gebäude",
     "district": "Lokstedt",
     "pdfName": "TDA_2019_PROGRAMMHEFT.PDF",
     "programmYear": "2019"
@@ -1534,12 +1480,6 @@
     "programmYear": "2019"
   },
   {
-    "district": "",
-    "pdfName": "TDA_2019_PROGRAMMHEFT.PDF",
-    "programmYear": "2019"
-  },
-  { "pdfName": "TDA_2022_PROGRAMMHEFT_01.PDF", "programmYear": "2022" },
-  {
     "description": "und Stadtplanung Projek te 1 Alsterdorf Umbau und Sanierung der Stiftungskirche St. Nicolaus und Errichtung des Lern- und Gedenkortes Das 1938 in die neugotische Kirche eingefügte Sgraffito- Altarbild zeigt die Verstrickung der früheren Alsterdorfer Anstalten mit dem NS-Regime. Um den Kirchraum von der Last des Bildes befreien zu können, dieses aber gleichzeitig als ein Dokument der Täterkunst zu erhalten, wurde es mit der bauzeitlichen Chorwand in den neuen Lern-und Geden- kort für die Opfer der Euthanasie transloziert. Den neuen Raumabschluss bildet nun eine mehrschichtige Glasfassade, die den Raum wieder hell und freundlich erscheinen lässt.",
     "architect": "ZYMARA LOITZENBAUER GIESECKE Architekten BDA",
     "address": "vor der Kirche, Eingang Sengelmanstraße / Ecke Dorothea-Kasten-Straße",
@@ -1636,13 +1576,6 @@
     "programmYear": "2022"
   },
   {
-    "description": "Wohnen am Strandkai Mit großartigem Blick und in prominenter Nachbarschaft ist das Haus an der Spitze des Strandkais eine Einladung an Bewohner*innen und Passant*innen. Die Figur ist in Grundriss und Ansicht dynamisch auf ihren Standort an der Spitze zugeschnitten. Als Endpunkt in einer Serie von Blöcken und Hochhäusern weicht das Haus von seiner kantigen Vorlage mit einem bauchigen Schwung ab. Da- mit weitet sich der Blick zur Spitze des Strandhöft und er- möglicht vielen Bewohner*innen die Aussicht elbabwärts.",
-    "architect": "léonwohlhage Gesellschaft von Architekten mbH",
-    "district": "HafenCity",
-    "pdfName": "TDA_2022_PROGRAMMHEFT_01.PDF",
-    "programmYear": "2022"
-  },
-  {
     "description": "Oberbillwerder Oberbillwerder liegt im Bezirk Bergedorf, rund 16 Minuten vom Hamburger Hauptbahnhof entfernt. Es ist nicht nur Hamburgs zweitgrößtes Stadtentwicklungsprojekt, es wird auch der 105. Stadtteil der Hansestadt – und der nachhal- tigste. Seit 2016 laufen die Planungen der IBA Hamburg zur Entwicklung des neuen Stadtteils. In dem Prozess mit ver- schiedenen Beteiligungsformaten wurde der Entwurf von ADEPT mit Karres en Brands ausgewählt, der nun für die bau- liche Realisierung ab Mitte der 2020er-Jahre weiterent- wickelt wird. Stadtplanungs- und",
     "architect": "ADEPT und Karres en Brands",
     "address": "Nördlich der S-Bahn-Station Allermöhe",
@@ -1653,6 +1586,7 @@
   {
     "description": "Neubau Wohngebäude Gärtnerstraße 26a Im Sinne einer Nachverdichtung der bestehenden Bebau- ung grenzt der Neubau als drei- bis fünfgeschossiger Riegel in Teilen direkt an das Nachbargebäude Gärtnerstraße 22. Die Position der Treppen- und Aufzugsanlage reagiert dabei auf die Brandwände des Bestandsbaus, zwei offene Trep- penhäuser verbinden die Laubengangerschließung mit groß- zügigen, begehbaren und begrünten Dachflächen. Insge- samt sind 29 Wohnungen auf fünf Ebenen sowie eine Tief- garage entstanden.",
     "architect": "HS-Architekten Part GmbB Schmidt Limmroth Funck Klapsing, Kathrin Wolf Landschaftsarchitektur",
+    "address": "Gärtnerstraße 22, Tordurchfahrt",
     "district": "Hoheluft-West",
     "pdfName": "TDA_2022_PROGRAMMHEFT_01.PDF",
     "programmYear": "2022"
@@ -1808,304 +1742,5 @@
     "district": "Winterhude",
     "pdfName": "TDA_2022_PROGRAMMHEFT_01.PDF",
     "programmYear": "2022"
-  },
-  { "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF", "programmYear": "2023" },
-  {
-    "description": "und Stadtplanung Projek te 1 Altona Bauspielhaus Hexenberg Der Massivholzbau wurde durch das Bezirksamt Altona und das Amt für Bauordnung und Hochbau 44 realisiert. Es beherbergt Gruppenräume des Bauspielplatzes, in denen Kinder unter Betreuung spielen und werken können. Die Geometrie des Baukörpers verleiht diesem einen kindge- rechten Maßstab. Die Baumaterialien spiegeln die Nutzung wider. Die Massivholzwände und die Dächer sind im Innen- raum sichtbar. Die Lärchenbretter für die Fassade wurden von der Försterei Klövensteen mit Holz aus dem bezirks- eigenen Forst hergestellt.",
-    "architect": "Architekturbüro Hormann (LP 1-8), Architekturbüro Moedebeck (LP 8)",
-    "address": "neuer Bauspielplatz Hexenberg, Königstraße 8a",
-    "district": "Architektur",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Burstah Ensemble Das städtebauliche Entwicklungsprogramm „Innenstadt- konzept Hamburg 2010“ sieht im Umfeld der Nikolaikirche eine Neuordnung des Areals in Anlehnung an die kriegs- zerstörte, gründerzeitliche Bebauungsstruktur vor. Auf Grundlage des Wettbewerbsentwurfs „Großer Burstah 3, Neue Burg 1“ von BIWERMAU Architekten wurden dort zwei Büro- und Geschäftshäuser realisiert, die die stadtbild- prägenden Typologien der Hamburger Kontorhäuser fort- schreiben.",
-    "architect": "BIWERMAU Architekten BDA (Wettbewerb 1.Preis, LP 1-4 + Leitdetails), Tchoban Voss Architekten (LP 5)",
-    "address": "Bohnenstraße / Ecke Hahnentrapp",
-    "district": "Altstadt",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Ehemaliger Getreidespeicher mit Verladebrücke Große Elbstraße 281 Umbau, Sanierung und Instandsetzung des ehemaligen unter Denkmalschutz stehenden Getreidespeichers einschließlich Innenausbau und Hochwasserschutzanlage.",
-    "architect": "SEHW Architekten PartG mbB",
-    "address": "Ehemaliger Getreidespeicher, Große Elbstraße 281",
-    "district": "Altona",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Vom Kirdorfhaus zum Ballinhof Umbau und Sanierung des denkmalgeschützten Kontorhauses an der Binnenalster Von der Alster bis zur Ferdinandstraße erstreckt sich seit Fertigstellung im Jahr 1921 das sechsgeschossige Kontor- haus. Die äußerst widersprüchlichen Fassaden aus Sand- stein, Keramik und Stuck wurden mit großer Zurückhaltung saniert und teilweise mit nachgebrannter Keramik neu aufgebaut. Die originale Kupferdachdeckung wurde aufge- arbeitet und gerettet. Die historischen, nach außen vortre- tenden Vitrinen wurden als Stahlkonstruktion neu erbaut.",
-    "architect": "HS-Architekten PartGmbB Schmidt Limmroth Funck Klapsing",
-    "address": "Eingang Ballinhof, Ballindamm 17",
-    "district": "Altstadt",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Revitalisierung Bürogebäude Rosenstraße Das in den Jahren 1993 und 1996 errichtete Büro- und Geschäftshaus in der Rosenstraße in Hamburg wurde einer umfangreichen Revitalisierung unterzogen, die neben einer BREEAM-Zertifizierung für die Lebenszyklusphasen von Immobilien zum Ziel hatte, eine Multi-Tenant Vermietung mit zeitgemäßen Arbeitsplatzformen von Open Space bis Single Workplaces zu ermöglichen – also eine Art \"Multispace\" zu realisieren, der die Mitarbeitenden in ihren Arbeitsabläufen, aber auch in ihrem Büro- und Lebensalltag unterstützt.",
-    "architect": "pbr Planungsbüro Rohling AG",
-    "address": "Rosenstraße 9-11",
-    "district": "Altstadt",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Strategien der Anpassung: Weiter Nutzen! – Jupiter: Zwischennutzung des ehemaligen Karstadt Sport Anpassungsfähigkeit ist der evolutionäre Vorteil, der bei geänderten Umweltbedingungen das Überleben sicherstellt. Das gilt auch für Bauwerke. Technischer und wirtschaftlicher Wandel oder die demografische Entwicklung können Typo- logien obsolet werden lassen. Wie können sie überleben? Wer kann das erreichen? Am Beispiel der Einbauten für die Zwischennutzung des ehemaligen Karstadt Sport an der Mönckebergstraße zeigt das Büro asdfg in Kooperation mit der Hamburg Kreativ Gesellschaft Strategien der Anpassung in Hamburg.",
-    "architect": "asdfg Architekten BDA",
-    "address": "Jupiter (ehemaliges Karstadt Sport), Mönckebergstraße 2-4",
-    "district": "Altstadt",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Barrierefreies Hamburger Rathaus Mit dem Aufzug ist ein Meilenstein für die Barrierefreiheit im Hamburger Rathaus erreicht worden. Jetzt können mobili- tätseingeschränkte Personen und Menschen mit Behinde- rung alle Ebenen vom Keller bis zum Dachgeschoss erreichen. Damit sind die Besucher*innentribüne des Plenarsaals, der Festsaal mit Galerie sowie Besprechungsräume und die Abgeordnet*innenbüros für alle Menschen, unabhängig von ihren Mobilitätseinschränkungen, selbstständig und selbst- bestimmt ohne fremde Hilfe barrierefrei zugänglich.",
-    "architect": "rimpf Architektur & Generalplanung",
-    "address": "Empfang Rathaus, Rathausmarkt 1",
-    "district": "Altstadt",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Lofthouse Stahlwiete 20 Das Grundstück befindet sich in Bahrenfeld nahe des beliebten Stadtteils Ottensen. In dem ehemals von Industrie geprägten Gebiet hat sich inzwischen ein lebendiges Mit- einander von Gewerbe und Wohnen entwickelt. Im Innenhof des Grundstücks befindet sich ein unter Denkmalschutz stehendes Fabrikgebäude. Mit dem Neubau wird die Lücke in der Blockrandbebauung geschlossen. Gleichzeitig bleibt die Sichtverbindung durch den großzügigen zweigeschos- sigen Durchgang in den Innenhof und zum historischen Fabrikgebäude bestehen.",
-    "architect": "Heitmann Montufar Architekten (LP 1-5) Planungsbüro: Galante Projekte (LP 6-8)",
-    "address": "Lofthouse Stahltwiete 20",
-    "district": "Bahrenfeld",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Tischlerei Møbelwerft – Holz auf Holz Planungsbüro und Showroom sollten ein Gesicht bekommen: Wenn Kund*innen zur Møbelwerft kommen, sehen sie direkt, was diese Tischlerei alles kann. Deren handwerkliche Exzellenz in der Arbeit mit Holz spiegelt sich vom Empfang über den Konferenzraum bis weiter in den Materialraum und den Toilettenbereich wider. Innen",
-    "architect": "architekturbüro: SCHWARZ ZU BLAU",
-    "address": "Tischlerei Møbelwerft, Boschstraße 16",
-    "district": "Bahrenfeld",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Umnutzung und Erweiterung eines Luftschutzbunkers zu Mikroappartements Der unter Denkmalschutz stehende Bunker aus den 1940er Jahren wurde zu Mikroappartements sowie zwei Gewerbe- einheiten umgebaut. Die ebenfalls unter Denkmalschutz stehenden Geschossdecken und Treppenhäuser wurden er- halten und Relikte aus der aktiven Bunkerzeit in die Planung integriert. Die Belichtung der Bunkerappartements erfolgt über zwei Lichtschlitze in der Außenfassade. Historische und neue Elemente bilden dabei einen harten Kontrast. Ergänzt wurde der Bunker durch einen rückwertigen Anbau.",
-    "architect": "Doruk Architekten (LP 1-4), AG horizont Architekten (LP 3-6, KOL 8), Designhaus Medy (LP 7), TBR Architekten (LP 8)",
-    "address": "vor dem Hauseingang, Habichtstraße 37",
-    "district": "Barmbek-Süd",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Kolibri Studios Im malerischen „Vogelviertel“ entstand in der Steilshooper Straße anstelle eines Einparteien-Townhouses ein Wohnhaus mit sieben Wohnungen. Im Sinne einer Nachverdichtung des sich in seiner Beliebtheit rasch entwickelnden Stadtteils wurde der Entwurf dieses kompakten Townhouses so gestal- tet, dass es sieben Parteien neuen Wohnraum bietet und sich zugleich durch die Gestaltung als Baustein der bestehenden heterogenen Townhouse-Architektur versteht.",
-    "architect": "Schleicher Weiss Assoziierte GmbH",
-    "address": "vor dem Haus, Steilshooper Straße 93a",
-    "district": "Barmbek-Nord",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Neugestaltung der Fußgängerpromenade am Serrahn Die alte ca.13 Meter breite Hafenkante Bergedorfs wird durch ihre zonierte Neugestaltung großzügiger und mit einem Gewinn an Aufenthaltsqualität gestaltet. Entlang der Bebau- ung ist die Sondernutzung für Außengastronomie zugelas- sen, die mittlere Zone wird Fußgänger*innen als Flaniermeile vorbehalten, während die Wasserkante weitgehend offen gestaltet und von privaten Nutzungen freigehalten wird. Historische Bezüge werden durch den Hafenkran und Schutenbänke erlebbar gemacht. Landschafts",
-    "architect": "architekturbüro: Ando Yoo Landschaftsarchitektur (LP 1-6)",
-    "address": "am Bergedorfer Hafenkran, Serrahnstraße 5",
-    "district": "Bergedorf",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Kommunales Kultur- und Begegnungszentrum KörberHaus Mitten in Bergdorf befindet sich das neue KörberHaus: ein offenes Haus mit Theater, Bibliothek, Café und multifunk- tionalen Veranstaltungsräumen für alle. Das Herzstück des Hauses, das lichtdurchflutete Foyer, bietet den Besucher*innen einen schnellen Überblick über alle drei Geschosse. Lamellen aus Kupfer mit der typischen warmrötlichen Farbigkeit umhüllen das Gebäude und verbinden den Neubau mit der umgebenden Backsteinarchitektur. Über dem Wasser schwebende Terrassen bieten Ruheorte im Freien.",
-    "architect": "MGF Architekten GmbH (LP 1-4, Wettbewerb 2017 1.Preis), Schaub und Partner (LP 5), mo architekten und ingenieure (Lp 6-9)",
-    "district": "Bergedorf",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Sanierung und Erweiterung der Schule an der Isebek Für die Erweiterung der Grundschule wurde das denkmal- geschützte Gebäude von Fritz Schumacher von Zubauten aus den 1970er-Jahren befreit und behutsam saniert. Ein neuer kompakter Baukörper ergänzt das ursprünglich als Hilfsschule geplante Gebäude von 1927 entlang der Bundesstraße. Wäh- rend im Bestandsbau originale Bauteile und Farben unter den alten Schichten wieder hervorgeholt wurden, überrascht der ansonsten ruhig anmutende Neubau seinerseits mit einem innenliegenden zweigeschossigen polygonalen Pausenraum.",
-    "architect": "Trapez Architektur GmbH, (Partizipationsverfahren, Planung LP 1-8), baubüro.eins (LP 8) Landschaftsarchitekturbüro: EGL Entwicklung und Gestaltung",
-    "address": "Schulhof Schule an der Isebek, Standort Bundesstraße 94",
-    "district": "Eimsbüttel",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Sanierung und Erweiterung Kulturhaus Eidelstedt Die Sanierung und Erweiterung des Kulturhauses Eidelstedt erfolgte nach den Plänen der Preisträger eines europaweit ausgeschriebenen Wettbewerbs. Durch die Auflösung des Baukörpers mithilfe einer großflächigen Glasfassade als Basis sowie durch einen Rücksprung, schwebt das Gebäude scheinbar über dem Platz und belebt diesen durch die hier vorgesehene Nutzung als Bücherei. Eine weiße Haut aus horizontalen, ungleichmäßig gegliederten Fassadenprofilen zitiert das früher vorhandene Sichtmauerwerk des Ursprungbaus.",
-    "architect": "acollage. architektur urbanistik",
-    "address": "Kulturhaus Eidelstedt, vor dem Haupteingang, Alte Elbgaustraße 12",
-    "district": "Eidelstedt",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Strategien der Anpassung: Weiter Nutzen! – Proberaum Oberhafen: Architekturwerkstatt im Güterbahnhof Anpassungsfähigkeit ist der evolutionäre Vorteil, der bei geänderten Umweltbedingungen das Überleben sicherstellt. Das gilt auch für Bauwerke. Technischer und wirtschaftlicher Wandel oder die demografische Entwicklung können Typo- logien obsolet werden lassen. Wie können sie überleben? Was ist erforderlich? Wer kann helfen? Am Beispiel der Inte- gration einer „Werkstatt für Architektur” in eine alte Güterhalle zeigt das Büro asdfg Architekten Strategien der Anpassung im Zentrum von Hamburg.",
-    "architect": "asdfg Architekten (LP 1-9), STLH Architekten (LP 1-9)",
-    "address": "Proberaum Oberhafen, Stockmeyerstrasse 41, Halle 4b",
-    "district": "HafenCity",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Geschäftshaus am Lohsepark Gelegen am Hamburger Lohsepark, bildet der L-förmige Baukörper städtebaulich eine Einheit mit dem angrenzenden denkmalgeschützten Bestand. Der Gebäudekörper erscheint zweigeteilt und staffelt sich durch Dachterrassen zu den Nachbarbauten hin ab. Der Sockel ist mit grün und schwarz glasierten Klinkern gestaltet. Die mit rotem Klinker ge- mauerte Fassade der Obergeschosse lässt das Gebäude je nach Licht- und Witterungsverhältnissen unterschiedlich erscheinen und verleiht ihm eine nahezu textile Leichtigkeit.",
-    "architect": "Wandel Lorch Götze Wach",
-    "address": "Am Lohsepark 4-6 / Ecke Steinschanze, am Haupteingang",
-    "district": "HafenCity",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Baugemeinschaft „Tor zur Welt“ Für die Baugemeinschaft „Tor zur Welt“ wurde in der öst- lichen HafenCity am Eingang zum Quartier Baakenhafen eine achtgeschossige Wohnbebauung in Holzhybridbauweise mit 29 Wohneinheiten errichtet. Zielsetzung bei der Grund- rissfindung war, eine möglichst robuste Grundstruktur zu schaffen, die in der Nutzung und bei einer möglichen späte- ren Umnutzung maximale Variabilität ermöglicht. Neben Aspekten der Nachhaltigkeit wurde durch ein regelmäßiges Grundrisssystem eine hohe Kosteneffizienz sichergestellt.",
-    "architect": "Kaden+Lager (heute LAGERSCHWERTFEGER)",
-    "address": "Baakenallee 8-10",
-    "district": "HafenCity",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Info Pavillon zum Hamburger Architektur Sommer 2023 Zirkularität gilt als einer der Schlüssel zum ressourcen- schonenden Bauen. Zukünftig gilt es Gebäude so zu konstru- ieren, dass die Nutzung der darin verbauten Materialien über die Lebensdauer der Gebäude hinaus gewährleistet bleibt. Verbindungen und Fügungen von Baumaterialien müssen neu und reversibel gedacht werden. Welche Materialstrate- gien kommen zum Einsatz? Am Beispiel des temporären Pavillons soll kreislaufgerechtes Bauen im Zeitraffer und Modellversuch anschaulich und nachvollziehbar werden. Planungsbüro: umschichten",
-    "address": "am Info Pavillon auf den Magellan-Terrassen, Großer Grasbrook",
-    "district": "HafenCity",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Hammerbrooklyn Digital Pavillon Translozierung eines Expo Pavillons von Mailand nach Ham- burg: Das ursprüngliche Bauwerk des Architekten James Biber (NY) musste an die deutschen Bauvorschriften ange- passt werden. Spine Architects nahm im Inneren räumliche Modifikationen für die neuen Nutzungen vor, ertüchtigte die thermische Hülle, errichtete die unteren beiden Ebenen in massiver, feuerbeständiger Stahlbetonbauweise und ent- wickelte drei neue Stahlbetontreppenhäuser.",
-    "architect": "Biber Architects (Expo Pavillon Mailand 2015), Spine Architects (LP 5-7, künstl. Oberbauleitung und Mieterausbauplanung) Planungsbüro: Metapol Studios (Entwurfskonzept Translozierung bis LP 4) Landschaftsarchitekturbüro: WES LandschaftsArchitektur (LP 5-8)",
-    "address": "Leuchtschrift Factory Hammerbrooklyn, Stadtdeich 2-4",
-    "district": "Hammerbrook",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Roots – ein Holzhochhaus in der HafenCity Der Trend zur ökologischen und nachhaltigen Architektur manifestiert sich auch im Baumaterial Holz. Am Beispiel von Roots – dem ersten und derzeit höchsten Holzhochhaus Deutschlands, welches aktuell in der HafenCity entsteht – wird auf den Prozess einer nachhaltigen Hochhauskonzep- tion eingegangen und über Herausforderungen, Erfahrungen und Lehren aus der Perspektive des Planungsbüros und des Holzbauunternehmers reflektiert.",
-    "architect": "Störmer Murphy and Partners (LP 1-5)",
-    "address": "Roots, Liselotte-von-Rantzau-Platz/ Lucy-Borchardt-Straße 2-8 Hinweis: Teilnahme ausschließlich nach Anmeldung über www.tda-hamburg.de",
-    "district": "HafenCity",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Wohnsiedlung Julius-Vosseler-Straße Als Siegerentwurf aus einem städtebaulichen Wettbewerb hervorgegangen, bietet das neue Quartier auf dem ehe- maligen Gelände eines Kleingartenvereins Wohnraum für über 600 Menschen. Der großräumige Wohnhof, der sich typologisch an den Mietsblöcken aus der Zeit der Weimarer Republik orientiert, schafft mit seiner parkartigen Weite und den neu gepflanzten Großbäumen eine außerordent- liche Aufenthaltsqualität. Die Mischung aus freifinanzierten und geförderten Wohnungen ist zukunftsweisend für urbanes Wohnen in Hamburg.",
-    "architect": "SEHW Architekten PartG mbB Landschaftsarchitekturbüro: SB2 Evelyna Boué",
-    "address": "Kita Lokis, Julius-Vosseler-Straße 114b",
-    "district": "Lokstedt",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Revitalisierung des Industriedenkmals Kraftwerk Bille Das Kraftwerk Bille liegt als ehemaliges Fabrikensemble aus dem späten 19. Jahrhundert in Hammerbrook. BIWERMAU übernimmt die denkmalgerechte Sanierung des Industrie- denkmals und wird das Gebäudeensemble durch eine schonende und nachhaltige Herangehensweise mit span- nenden Inhalten neu beleben. Durch die Ergänzung und Aufstockung des Gebäudekomplexes wird die Umnutzung zu Gewerbe-, Büro- und Kreativflächen und damit die Möglichkeit für ein lebendiges und modernes Quartier auf ca. 25.000 qm geschaffen.",
-    "architect": "BIWERMAU Architekten BDA Landschaftsarchitekturbüro: WES GmbH LandschaftsArchitektur",
-    "address": "Kraftwerk Bille, Bullerdeich 14",
-    "district": "Hammerbrook",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Krähennest (Stair Case Study House 26) Dachgeschosserweiterung einer kleinen Jugendstilvilla mit Ausbau des Spitzbodens: Der Anbau ragt aus der Dach- fläche heraus, ruht auf gelben Diagonalstützen und schafft ein neues Split-Level-Geschoss zwischen Obergeschoss und Spitzboden. Eine zweiläufige Treppenanlage bildet Raumabschluss, Erschließung, Sitzmöbel, Stauraum und Ausguck.",
-    "architect": "Gerd Streng Architekt BDA (LP 0-4, Interieurplanung), publicplan Architektur+Gestaltung (Hochbau LP 5-8)",
-    "district": "Niendorf",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Montblanc Haus Das Montblanc Haus ist ein neues Ausstellungsgebäude, das der Kunst des Schreibens gewidmet ist. Das Projekt ist als 100 Meter langes Volumen konzipiert, das die historische Form der Hülle eines Schreibgeräts aufgreift. Eine komplexe Abfolge von Räumen auf drei Ebenen ist um ein einzigartiges Foyer herum entwickelt. Das Gebäude mit einer Nutzfläche von 3.600 m² beherbergt eine Dauerausstellung, temporäre Ausstellungsräume, ein Archiv, eine Boutique, ein Schreib- Atelier, Meetingräume und ein Café.",
-    "architect": "Nieto Sobejano Arquitectos GmbH, Plan Forward GmbH",
-    "address": "Eingang Montblanc Haus, Hellgrundweg 98",
-    "district": "Lurup",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Gemeinsam Wohnen im Grünen Die dreigeschossige Neubauzeile mit Staffel (16 Wohnein- heiten) im vorstädtischen Stadtteil Osdorf wurde nachhaltig geplant: Die großzügigen aufgeständerten Freisitze sind eben- so wie die Fassade aus hochwertigen Tonschindeln, zu 50 % aus recycelten Klinkern gefertigt, rückbaubar. Die Schindeln wur- den speziell für die vorgehängte hinterlüftete Fassadenkon- struktion entwickelt, um Materialverluste zu minimieren und eine zeitgemäße, innovative Alternative zum umweltschäd- lichen Wärmedämmverbundsystem zu realisieren.",
-    "architect": "LRW Architekten und Stadtplaner Loosen, Rüschoff + Winkler Landschaftsarchitekturbüro: Y-LA Ando Yoo Landschaftsarchitektur",
-    "address": "Eingang neues Wohngebäude, Jochim-Sahling-Weg 13",
-    "district": "Osdorf",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Alsterkant Das Gebäudeensemble ist eine umschließende Block- randbebauung unter Berücksichtigung der vorgegebenen Sichtachse. Durch ein Öffnen des Blockrands zur Alster ist der Durchblick und der Bezug zum Wasser gegeben. Um neben dem Erhalt der schützenswerten Bäume den wich- tigen Bezug zu dem gegenüberliegenden Schumacher-Bau zu schaffen, tritt das Volumen auf der Nordseite in Teilen zurück.",
-    "architect": "bof architekten (LP 1-5)",
-    "address": "Kreuzung Im Grünen Grunde / Am Hasenkamp",
-    "district": "Ohlsdorf",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Carlsen Verlagscampus Wo die Firma Gutmann noch bis 1980 Sandstrahlgebläse herstellte, entstand im Mai 2021 eine neue Bürowelt für den Kinder- und Jugendbuchverlag Carlsen. Diese neue Fläche in Ottensen ist Teil des zukünftigen Verlags-Campus, der sich derzeit auf dem Areal in der Völckersstraße 20 entwickelt. Sie ergänzt das dortige Verlagshaus des Unternehmens um einen weiteren, größeren Standort in direkter Nachbarschaft.",
-    "architect": "ARGE de Winder Architekten / Stern Architekten",
-    "district": "Ottensen",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Periskop (Stair Case Study House 27) Sanierung eines 1950er-Jahre Hauses mit Reorganisation des Grundrisses im Obergeschoss. Die räumlichen Eingriffe beinhalten die neue Erschließung des Spitzbodens ohne Durchgangszimmer durch eine Raumspartreppe, eine geschossübergreifende Möblierung mit vertikalen Spiegel- achsen (\"Periskop\") sowie ein feuerhemmendes Wohn- zimmerregal.",
-    "architect": "Gerd Streng Architekt BDA (Interieurplanung)",
-    "district": "Osdorf",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Der Allende-Platz – Neugestaltung des öffentlichen Raumes im Grindelviertel Der Allende-Platz war ein von Gehwegen umgebener Park- platz. Im Rahmen eines städtischen Sanierungsprogramms fand seine landschaftsarchitektonische Neugestaltung statt. Entstanden ist eine großzügige Aufenthaltsfläche ohne Ver- zehrzwang, mit ruhigeren Abschnitten und solchen, die dem prallen Leben direkt neben der Gastronomie zugeordnet sind. Mit Blick auf das Thema Nachhaltigkeit wurden örtlich vorhandene, historische Naturstein-Stufen und gebrauchtes Hamburger Pflaster wiederverwendet. Landschafts",
-    "architect": "architekturbüro: Mertins Landschaftsarchitektur",
-    "address": "Allende-Platz, vor dem Abaton Bistro (Eingang), Grindelhof 14a",
-    "district": "Rotherbaum",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Neubau für „Der Player – Eat. Drink. Dance. Work“ Ottensen ist ein Stadtteil mit vielen historischen Loftgebäu- den. Der „Player“ ist ein Businessclub als kreativer Knoten- punkt mit Gastronomie-, Büro- und Freizeitflächen mit ganz- heitlichem Ansatz. Der Ziegelstein über dem Cortenstahl- Sockel wurde aus dem Rückbau von historischer Bausubstanz gewonnen. Die Fenster erinnern in Material und Proportion an ein Loftgebäude. Die Haupterschließung erfolgt über eine außenliegende Stahltreppe im Hinterhof, wie bei vielen Industriegebäuden aus dem 19. Jahrhundert üblich.",
-    "architect": "Stephen Williams Associates (Architektur LP 1-4 und Innenarchitektur), Aumann Katzsch Architekten (Architektur LP 5-8) Planungsbüro: Antibeige (Vintage Möbel und Stilberatung)",
-    "address": "Bahrenfelder Straße / Ecke Gaußstraße, Eingang Restaurant",
-    "district": "Ottensen",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Pauli Revitalisierung Congress Center Hamburg In den 1970er Jahren wurde das CCH als visionäres und gewagtes Bauvorhaben errichtet. Nach über 40 Jahren bedurfte es einer Revitalisierung und Erweiterung. Dazu wurde 2014 ein Wettbewerb ausgelobt, den die Arbeits- gemeinschaft agnLeusmann/TIM HUPE Architekten für sich entscheiden konnte. Nach Abschluss der Baumaßnahmen verbindet nun ein neuer Mantelbau drei räumliche Situatio- nen zu einer Sequenz: die Ankunft von Osten, die neue Ein- gangshalle und das zwei Ebenen höher gelegene Belvedere.",
-    "architect": "TIM HUPE Architekten (seit Januar 2022 HUPE FLATAU Partner) (Entwurf), agn Leusmann GmbH (Ausführung)",
-    "district": "St.",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Wohnen und Studieren auf der „Schanze“ Sieben drei- bis siebengeschossige Wohngebäude (113 Eigentumswohnungen und Studierendenwohnanlage) schließen den Blockrand Schulterblatt/Amandastraße. Nach Norden komplementiert ein dreigeschossiger Riegel mit Staffelgeschoss und einem fünfgeschossigen Solitär das Quartier um einen neuen Innenhof und schafft so privaten Freiraum für die Bewohner*innen. Das Quartier zeichnet sich durch eine hohe urbane Dichte (Geschossflächenzahl: 3,4) und hervorragende Wohn- und Freiraumqualitäten aus.",
-    "architect": "LRW Architekten und Stadtplaner Loosen, Rüschoff und Winkler Landschaftsarchitekturbüro: Wiggenhorn & van den Hövel",
-    "address": "Durchgang Schulterblatt 130 / Hannah Ahrendt Haus",
-    "district": "Schanzenviertel",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Neubau Wohnheim Wasserschutzpolizei-Schule Der trapezförmige Grundriss des viergeschossigen Gebäudes mit 18 Zimmern und Lehrräumen resultiert aus dem Grund- stückszuschnitt. Firstlinie und Traufkante verlaufen straßen- seitig parallel zum Worthdamm, sodass eine ruhige Westan- sicht entsteht. Mit bodentiefen, schlanken Fensteröffnungen und einer schnörkellosen Backsteinästhetik nimmt der Bau die Materialität des unter Denkmalschutz stehenden Haupt- gebäudes auf und ist zugleich modernes hanseatisches Understatement.",
-    "architect": "prasch buken partner architekten bda (LP 1-3, Freiraumplanung)",
-    "address": "Neubau Wohnheim Wasserschutzpolizei-Schule, Veddeler Damm 48",
-    "district": "Veddel",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "LEO – Leo-Leistikow-Allee Das Projekt LEO an der Leo-Leistikow-Allee / Ecke Ober- altenallee bildet als kräftige Eckbebauung den Auftakt in das neue Wohnquartier Finkenau. Trotz seiner Lage an der achtspurigen Magistrale und den damit verbundenen Heraus- forderungen wurden hier 184 hochwertige Wohnungen – davon 55 öffentlich gefördert – und Gewerbeeinheiten geschaffen. Die Fassade mit den ausdrucksstarken, variie- renden Ziegelstrukturen erinnert an loftartige Gebäude zu Beginn des vergangenen Jahrhunderts.",
-    "architect": "kbnk ARCHITEKTEN GMBH",
-    "address": "Oberaltenallee / Ecke Leo-Leistikow-Allee, Leo-Leistikow-Allee 2",
-    "district": "Uhlenhorst",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Drei Schwestern – Genossenschaftlicher Wohnungsbau in heterogenem Quartier Auf dem ursprünglich mit einem eingeschossigen Super- markt bebauten Grundstück wurden drei rautenförmige Gebäude mit 37 Wohnungen und eine Kita realisiert. Das Ensemble entwickelt sich mit einem fünfgeschossigen Bau- körper zur Kreuzung und zwei viergeschossigen Häusern um die bestehenden Bäume herum. Es gibt einen großen Fahrradraum, keine Tiefgarage und nur ein Haus verfügt über einen Aufzug. In den Untergeschossen sind drei Wärmepumpen aktiv.",
-    "architect": "Renner Hainke Wirth Zirn Architekten Landschaftsarchitekturbüro: Hunck+Lorenz Freiraumplanung",
-    "address": "Kreuzung Reeseberg / Wasmerstraße, Reeseberg 115",
-    "district": "Wilsdorf",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "ZINNERGIE – eine urbane Biogasanlage ZINNERGIE erforscht das Potenzial zirkulärer Konzepte durch den Bau einer kleinen urbanen Biogasanlage, die ausschließ- lich aus wiederverwendeten Materialien besteht. Entwickelt wurde eine robuste Struktur, die die Infrastruktur der Biogas- anlage aufnimmt und darüber hinaus ausstellt. Ein großes Dach schützt vor Regen und definiert das Gesicht zur öffent- lichen Straße. Die Offenheit der Struktur lädt die Menschen ein einzutreten. Der Platz davor wird aktiviert und in einen Ort des öffentlichen Lebens verwandelt.",
-    "architect": "Atelier JQTS, Johanna Schmeißer, Prof. Matthias Ballestrem",
-    "address": "an der Biogasanlage, Am Veringhof 7",
-    "district": "Wilhelmsburg",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
-  },
-  {
-    "description": "Pergolenviertel Das Pergolenviertel beschreibt den „Block im Grünen“ in der urbanen Umgebung zwischen der Hamburger City Nord und Barmbek. Der Entwurf basiert auf einem klaren Ent- wurfsraster, welches sich sowohl in der äußeren Fassaden- gestaltung als auch in der inneren Struktur des Baukörpers wiederfindet. Das städtebauliche Prinzip wird hier zum maßstabsübergreifenden Entwurfsthema.",
-    "architect": "blrm Architekt*innen GmbH",
-    "address": "im Innenhof des Gebäudes, Feldahornweg 41/61",
-    "district": "Winterhude",
-    "pdfName": "TDA_2023_PROGRAMMHEFT_WEB.PDF",
-    "programmYear": "2023"
   }
 ]
