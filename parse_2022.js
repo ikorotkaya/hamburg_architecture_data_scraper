@@ -2,14 +2,14 @@ const fs = require("fs");
 const path = require("path");
 const pdf = require("pdf-parse");
 
-const pdf_2014 = "./downloaded_pdfs/TDA_2022_PROGRAMMHEFT.pdf";
+const pdfFile= "./downloaded_pdfs/TDA_2022_PROGRAMMHEFT.pdf";
 const outputJSONFile = "./json/parsed_2022_data.json";
 
 const projects = [];
 const result = [];
 
 const readPDFFile = async () => {
-  const data = await pdf(fs.readFileSync(pdf_2014));
+  const data = await pdf(fs.readFileSync(pdfFile));
   const pdfText = data.text;
   let projectText = pdfText;
 
