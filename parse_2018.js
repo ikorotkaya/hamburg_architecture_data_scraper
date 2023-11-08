@@ -6,7 +6,6 @@ const pdfFile = "./downloaded_pdfs/TDA_2018_PROGRAMMHEFT.pdf";
 const outputJSONFile = "./json/parsed_2018_data.json";
 
 const projects = [];
-const result = [];
 
 const readPDFFile = async () => {
   const data = await pdf(fs.readFileSync(pdfFile));
