@@ -18,5 +18,8 @@
     "pg": "^8.11.3",
     "sequelize": "^6.33.0",
     "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
   }
 }
