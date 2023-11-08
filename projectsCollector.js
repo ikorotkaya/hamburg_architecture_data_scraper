@@ -15,7 +15,6 @@ fs.readdirSync(inputFolder).forEach((file) => {
       const projectData = JSON.parse(jsonData);
       for (let i = 0; i < projectData.length; i++) {
         if (projectData[i].address) {
-          // delete projectData[i].pdfName and projectData[i].text 
           delete projectData[i].pdfName;
           delete projectData[i].text;
 
