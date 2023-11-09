@@ -6,12 +6,11 @@ const sequelize = new Sequelize(
 );
 
 const Project = sequelize.define("project", {
-  title: DataTypes.STRING,
+  title: DataTypes.TEXT,
   description: DataTypes.TEXT,
   district: DataTypes.STRING,
-  address: DataTypes.STRING,
+  address: DataTypes.TEXT,
   architect: DataTypes.TEXT,
-  programmYear: DataTypes.STRING
 });
 
 // Synchronize the model with the database
@@ -20,7 +19,7 @@ const Project = sequelize.define("project", {
     await sequelize.sync();
     console.log("Database synchronized");
 
-    const rawData = fs.readFileSync("2023_projects.json");
+    const rawData = fs.readFileSync("all_projects.json");
     const projectsData = JSON.parse(rawData);
 
     for (const item of projectsData) {
