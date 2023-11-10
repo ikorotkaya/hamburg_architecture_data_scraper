@@ -11,6 +11,8 @@ const Project = sequelize.define("project", {
   district: DataTypes.STRING,
   address: DataTypes.TEXT,
   architect: DataTypes.TEXT,
+  lat: DataTypes.DECIMAL,
+  lng: DataTypes.DECIMAL,
 });
 
 // Synchronize the model with the database
@@ -19,10 +21,11 @@ const Project = sequelize.define("project", {
     await sequelize.sync();
     console.log("Database synchronized");
 
-    const rawData = fs.readFileSync("all_projects.json");
+    const rawData = fs.readFileSync("final_projects.json");
     const projectsData = JSON.parse(rawData);
 
     for (const item of projectsData) {
+      console.log(item);
       await Project.create(item);
     }
   } catch (error) {
