@@ -1,7 +1,8 @@
 const fs = require('fs');
 const axios = require('axios');
+import dotenv from 'dotenv';
 
-const apiKey = 'AIzaSyCyfBOsBERQrkFMp62E6lOKCWv59WNsbeM'; // Replace with your Google Maps Geocoding API key
+const apiKey = process.env.GOOGLE_APIKEY; // Replace with your Google Maps Geocoding API key
 const inputJsonFile = 'all_projects.json'; 
 const outputJsonFile = 'final_projects.json'; 
 
