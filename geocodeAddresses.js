@@ -1,7 +1,7 @@
 const fs = require('fs');
 const axios = require('axios');
 
-const apiKey = 'your_api_key'; // Replace with your Google Maps Geocoding API key
+const apiKey = 'AIzaSyCyfBOsBERQrkFMp62E6lOKCWv59WNsbeM'; // Replace with your Google Maps Geocoding API key
 const inputJsonFile = 'all_projects.json'; 
 const outputJsonFile = 'final_projects.json'; 
 
