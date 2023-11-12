@@ -1,8 +1,7 @@
 const fs = require('fs');
 const axios = require('axios');
-import dotenv from 'dotenv';
 
-const apiKey = process.env.GOOGLE_APIKEY; // Replace with your Google Maps Geocoding API key
+const apiKey = ""; // Replace with your Google Maps Geocoding API key
 const inputJsonFile = 'all_projects.json'; 
 const outputJsonFile = 'final_projects.json'; 
 
@@ -36,16 +35,19 @@ async function geocodeAddress(address) {
 // Read addresses from the input JSON file
 const data = JSON.parse(fs.readFileSync(inputJsonFile, 'utf8'));
 
-// Geocode each address
+// Geocode each address and add unique ids to each project starting from 1 
 async function geocodeAddresses() {
-  console.log('Geocoding addresses...')
-  const geocodedData = await Promise.all(data.map(async (project) => {
-    console.log(`Geocoding address: ${project.address}`);
-    const geocodedInfo = await geocodeAddress(project.address);
-    if (geocodedInfo) {
-      return { ...project, ...geocodedInfo };
-    }
-  }));
+  const geocodedData = await Promise.all(
+    data.map(async (project, index) => {
+      const { lat, lng } = await geocodeAddress(project.address);
+      return {
+        ...project,
+        id: index + 1,
+        lat,
+        lng,
+      };
+    })
+  );
 
   // Save geocoded data to the output JSON file
   fs.writeFileSync(outputJsonFile, JSON.stringify(geocodedData.filter(Boolean), null, 2), 'utf8');
