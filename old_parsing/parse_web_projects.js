@@ -25,12 +25,8 @@ const parseProjectData = async (link) => {
 
   projectData.title = $("h2").text();
   projectData.description = $("div.description p").text();
-  projectData.buildingType = $("div.detail-row:contains('Bautypologie') p")
-    .text()
-    .trim();
   projectData.district = $("div.district p").text().trim();
   projectData.address = addressElement.text().trim();
-  projectData.category = $("div.categories").text().trim();
   projectData.architect = $("div.detail-row:contains('Architekturbüro') p")
     .text()
     .trim();
@@ -41,9 +37,6 @@ const parseProjectData = async (link) => {
       .replace(webAddress, "")
       .replace(/, $/, "");
   }
-  projectData.year = yearElement.text().trim();
-  projectData.link = link;
-
   const urlParams = new URLSearchParams(link);
   proojectId = urlParams.get("tx_asommer_tdaevent[event]");
   projectData.id = parseInt(proojectId);
