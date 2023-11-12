@@ -42,6 +42,8 @@ const readPDFFile = async () => {
           project.text = project.text.replace("Brücke\nerreichbare", "Brücke \nerreichbare").replace(" \nArchitekt: ", "\nArchitekt: ");
         } else if (project.text.includes("Gewerbe\nRevitalisierung")) {
           project.text = project.text.replace("Gewerbe\nRevitalisierung", "Gewerbe \nRevitalisierung");
+        } else if (project.text.includes("St. Pauli \nKlubhaus")) {
+          project.text = project.text.replace("St. Pauli \nKlubhaus", "St. Pauli\nKlubhaus");
         }
 
         const regex = /^\d+\s*\n/;

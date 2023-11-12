@@ -55,7 +55,9 @@ const readPDFFile = async () => {
           project.text = project.text.replace(". Architekten: ", ".\nArchitekten: ");
         } else if (project.text.includes("Schulen Im Zuge")) {
           project.text = project.text.replace("Schulen Im Zuge", "Schulen\nIm Zuge");
-        } 
+        } else if (project.text.includes("Billstedt \nNeubau Grundschule Rahewinkel")) {
+          project.text = project.text.replace("Billstedt \nNeubau Grundschule Rahewinkel", "Billstedt\nNeubau Grundschule Rahewinkel");
+        }
       }
       
       // Divide the projects that have more than one number and add the new projects to the array

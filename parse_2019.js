@@ -53,8 +53,12 @@ const readPDFFile = async () => {
           project.text = project.text
             .replace("Ohlsdorf\nDenkmalgerechte", "Ohlsdorf \nDenkmalgerechte")
             .replace("Innensanierung \nDie", "Innensanierung\nDie");
-        }
+        } else if (project.text.includes("Wohnen am Volkspark Das Baugrundstück")) {
+          project.text = project.text
+            .replace("Wohnen am Volkspark Das Baugrundstück", "Wohnen am Volkspark\nDas Baugrundstück")
+        } 
       }
+      
 
       // Divide the projects that have more than one number and add the new projects to the array
       for (const project of projects) {
