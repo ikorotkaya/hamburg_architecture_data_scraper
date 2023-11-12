@@ -1,7 +1,7 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
-const parseWebProjects = require("./parse_web_projects.js");
+const parseWebProjects = require("./old_parsing/parse_web_projects");
 
 // parse web projects from the base url and write the data to a json file
 
@@ -34,7 +34,7 @@ const baseUrl = "https://www.tda-hamburg.de";
     }
 
     const jsonData = JSON.stringify(allProjectData, null, 2);
-    const outputPath = "allProjectData.json";
+    const outputPath = "parsed_2024_data.json";
 
     fs.writeFile(outputPath, jsonData, (error) => {
       if (error) {
