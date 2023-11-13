@@ -1,22 +1,39 @@
-This code is a simple **web scraping** script written in Node.js using the *axios and cheerio libraries*. 
+# Web Scraper
 
-It fetches data from a specific URL and extracts project information from the HTML using *cheerio*.
+This script is a basic web scraping tool written in Node.js, using the *axios and cheerio libraries*. It retrieves information from the [Tag der Architektur und
+Ingenieurbaukunst in Hamburg](https://www.tda-hamburg.de/) website, extracting project details from the HTML using *cheerio*.
 
-Prerequisites:
-- Node.js (version X.X.X or higher)
-- NPM (Node Package Manager)
+![GitHub License MIT](https://img.shields.io/github/license/sqlhabit/sql_schema_visualizer?color=%2347A3F3)
 
-Installation:
-- Clone or download the repository.
-- Navigate to the project directory in your terminal.
-- Run npm install to install the required dependencies (axios and cheerio).
+## Prerequisites:
+- Node.js 
+- NPM (Node Package Manager) 
 
-Usage:
+- ORM Sequelize (optional)
+
+## How to use:
+- Copy or get the repository.
+- Go to the folder in your terminal.
+- Run npm install to get the needed *axios* and *cheerio* parts.
 - Open the code file in a text editor.
-- Replace the url variable **with the URL of the website you want to scrape**.
-- Run the script by executing node filename.js in your terminal.
-- The script will make a GET request to the specified URL, fetch the HTML content, and then use cheerio to parse the HTML and extract project information. The extracted data is stored in an array called projects. The script will log the projects array to the console.
+- Run the script in your terminal by typing 'node filename.js'.
+- The script will send a GET request for the HTML content from the website and use cheerio to extract project details from it. The collected information is saved in a json file at the *outputPath* location. 
 
-Customization:
-If you want to scrape a different website, replace the *url* variable with the desired URL.
-You can modify the CSS selector **('.news-list-item')** and the data fields **('h3' and 'a')** within the **$('.news-list-item', html).each()** function to match the structure of the target website and extract different data.
+⚒️ Optional: 
+- If you want to store the data in a database, you can use Sequelize ORM to create a model and save it in a database. You need to install the *sequelize* and *pg* packages to do this. 
+- In orm_single_projects.js, there is an example of how to create a model and save data in a database. You must select your database name and login credentials, as well as the model name and characteristics, and choose a file to read data from.
+
+
+💡 If you wish to scrape an alternative website, update the *baseUrl* variable with your preferred URL in the index.js file. You have the option to modify the CSS selectors to capture distinct information.
+
+## Credits
+
+All locations and pictures are from program PDFs on the https://www.akhh.de/baukultur/info-tag-der-architektur/ website, and all image rights are owned by [Hamburgische Architektenkammer](https://www.akhh.de/index.php).
+
+## Contributions
+
+Contributions to the Miles Experiences app are welcome! If you have any suggestions, bug reports, or feature requests, feel free to submit an issue or a pull request. 👋🏼
+
+## Licence
+
+This project is released under the MIT Licence. Feel free to use, modify, and redistribute the code under the terms of the licence.

@@ -34,7 +34,7 @@ const baseUrl = "https://www.tda-hamburg.de";
     }
 
     const jsonData = JSON.stringify(allProjectData, null, 2);
-    const outputPath = "parsed_2024_data.json";
+    const outputPath = "parsed_2023_data.json";
 
     fs.writeFile(outputPath, jsonData, (error) => {
       if (error) {
