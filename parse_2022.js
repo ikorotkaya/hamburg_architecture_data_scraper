@@ -28,7 +28,7 @@ const readPDFFile = async () => {
               .replace(/  \n/g, "")
               .replace("Architektur und Stadtplanung\nProjek te\n", "")
               .replace("\nArchitektur und Stadtplanung\nProjekte\nP", ""),
-            pdfName: pdf_2014,
+            pdfName: pdfFile,
           };
           projects.push(project);
         }
@@ -70,6 +70,21 @@ const readPDFFile = async () => {
           project.text = project.text.replace(
             " \nPlanungsbüros:",
             "\nPlanungsbüros:"
+          );
+        } else if (project.text.includes("von\nGroßwohnsiedlungen")) {
+          project.text = project.text.replace(
+            "von\nGroßwohnsiedlungen",
+            "von \nGroßwohnsiedlungen"
+          );
+        } else if (project.text.includes("Eleganz \nausstrahlt. \nArchitekturbüro")) {
+          project.text = project.text.replace(
+            "Eleganz \nausstrahlt. \nArchitekturbüro",
+            "Eleganz \nausstrahlt.\nArchitekturbüro"
+          );
+        } else if (project.text.includes("Fischbek \nPosteck ")) {
+          project.text = project.text.replace(
+            "Fischbek \nPosteck ",
+            "Fischbek\nPosteck "
           );
         }
       }
