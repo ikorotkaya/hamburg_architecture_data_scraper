@@ -2,6 +2,7 @@ const { Sequelize, DataTypes } = require("sequelize");
 const fs = require("fs");
 
 const sequelize = new Sequelize(
+  // Add your database connection details here
   "postgres://irinakorotkaya:postgres@localhost:5432/hamburg_architecture_projects"
 );
 
@@ -21,16 +22,18 @@ const Project = sequelize.define("project", {
     await sequelize.sync();
     console.log("Database synchronized");
 
-    const rawData = fs.readFileSync("final_projects.json");
+    const rawData = fs.readFileSync("fullProjectList.json", "utf8");
     const projectsData = JSON.parse(rawData);
 
-    for (const item of projectsData) {
-      console.log(item);
-      await Project.create(item);
+    for (const projectDetails of projectsData) {
+      console.log(projectDetails);
+      await Project.create(projectDetails);
     }
+
+    console.log("Data inserted into the database");
   } catch (error) {
     console.error("Error:", error);
   } finally {
-    sequelize.close();
+    await sequelize.close();
   }
 })();
