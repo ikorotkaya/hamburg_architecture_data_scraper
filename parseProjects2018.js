@@ -2,17 +2,17 @@ const fs = require("fs");
 const path = require("path");
 const pdf = require("pdf-parse");
 
-const pdfFile = "./downloaded_pdfs/TDA_2018_PROGRAMMHEFT.pdf";
-const outputJSONFile = "./json/projectsData2018.json";
+const pdfFilePath = "./downloaded_pdfs/TDA_2018_PROGRAMMHEFT.pdf";
+const outputJSONFilePath = "./json/projectsData2018.json";
 
 const projects = [];
 
-const readPDFFile = async () => {
-  const data = await pdf(fs.readFileSync(pdfFile));
-  const pdfText = data.text;
+const readAndExtractPDF = async () => {
+  const pdfData = await pdf(fs.readFileSync(pdfFilePath));
+  const pdfText = pdfData.text;
   let projectText = pdfText;
 
-  console.log("Found", pdfFile, "PDF file.");
+  console.log("Found", pdfFilePath, "PDF file.");
 
   const extractProject = (projectText, startIndexRegex, finishIndexRegex) => {
     const startIndex = projectText.search(startIndexRegex);
@@ -30,7 +30,7 @@ const readPDFFile = async () => {
               .replace(/  \n/g, " ")
               .replace("Architektur und Stadtplanung\nProjek te\n", "")
               .replace("\nArchitektur und Stadtplanung\nProjekte\nP", ""),
-            pdfName: pdfFile,
+            pdfName: pdfFilePath,
           };
           projects.push(project);
         }
@@ -143,7 +143,7 @@ const readPDFFile = async () => {
     /Architektur und Stadtplanung\nTo/i
   );
 
-  fs.writeFileSync(outputJSONFile, JSON.stringify(projects, null, 2));
+  fs.writeFileSync(outputJSONFilePath, JSON.stringify(projects, null, 2));
 };
 
-readPDFFile();
+readAndExtractPDF();

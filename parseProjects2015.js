@@ -2,14 +2,14 @@ const fs = require("fs");
 const path = require("path");
 const pdf = require("pdf-parse");
 
-const pdfFile = "./downloaded_pdfs/TDA_2015_PROGRAMMHEFT.pdf";
-const outputJSONFile = "./json/projectsData2015.json";
+const pdfFilePath = "./downloaded_pdfs/TDA_2015_PROGRAMMHEFT.pdf";
+const outputJSONFilePath = "./json/projectsData2015.json";
 
 const projects = [];
 
-const readPDFFile = async () => {
-  const data = await pdf(fs.readFileSync(pdfFile));
-  const pdfText = data.text;
+const readAndExtractPDF = async () => {
+  const pdfData = await pdf(fs.readFileSync(pdfFilePath));
+  const pdfText = pdfData.text;
   let projectText = pdfText;
 
   // Function to extract the project data from the PDF text
@@ -30,7 +30,7 @@ const readPDFFile = async () => {
               .replace(/  \n/g, " ")
               .replace("Architektur und Stadtplanung\nProjek te\n", "")
               .replace("\nArchitektur und Stadtplanung\nProjekte\nP", ""),
-            pdfName: pdfFile,
+            pdfName: pdfFilePath,
           };
           projects.push(project);
         }
@@ -124,7 +124,7 @@ const readPDFFile = async () => {
     /Architektur\nTouren\n/i
   );
 
-  fs.writeFileSync(outputJSONFile, JSON.stringify(projects, null, 2));
+  fs.writeFileSync(outputJSONFilePath, JSON.stringify(projects, null, 2));
 };
 
-readPDFFile();
+readAndExtractPDF();
