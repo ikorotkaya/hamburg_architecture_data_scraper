@@ -1,9 +1,7 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
-const parseWebProjects = require("./old_parsing/parse_web_projects");
-
-// parse web projects from the base url and write the data to a json file
+const parseWebProjectData = require("./parseWebProjectData");
 
 const baseUrl = "https://www.tda-hamburg.de";
 
@@ -16,7 +14,7 @@ const baseUrl = "https://www.tda-hamburg.de";
 
     $(".figure a", html).each((i, projectLink) => {
       const relativeUrl = $(projectLink).attr("href");
-      if (relativeUrl.includes("?tx_asommer_tdaevent%5Baction%5D=show")) {
+      if (relativeUrl.includes("?tx_asommer_tdaevent%5Baction%5D=show")) { //check CSS selectors
         const completeUrl = baseUrl + relativeUrl;
         projectLinks.push(completeUrl);
       }
@@ -25,7 +23,7 @@ const baseUrl = "https://www.tda-hamburg.de";
     const allProjectData = [];
 
     for (const link of projectLinks) {
-      const projectData = await parseWebProjects(link);
+      const projectData = await parseWebProjectData(link);
       if (projectData !== null) {
         allProjectData.push(projectData);
       } else {
@@ -34,7 +32,7 @@ const baseUrl = "https://www.tda-hamburg.de";
     }
 
     const jsonData = JSON.stringify(allProjectData, null, 2);
-    const outputPath = "parsed_2023_data.json";
+    const outputPath = "json/parsed_2023_data.json"; //update file name with year
 
     fs.writeFile(outputPath, jsonData, (error) => {
       if (error) {
@@ -43,6 +41,8 @@ const baseUrl = "https://www.tda-hamburg.de";
         console.log(`Data written to ${outputPath}`);
       }
     });
+
+
   } catch (error) {
     console.log(error);
   }
