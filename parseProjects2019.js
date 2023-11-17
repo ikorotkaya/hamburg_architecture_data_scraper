@@ -2,8 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const pdf = require("pdf-parse");
 
-const pdfFile = "./downloaded_pdfs/TDA_2016_PROGRAMMHEFT.pdf";
-const outputJSONFile = "./json/parsed_2016_data.json";
+const pdfFile = "./downloaded_pdfs/TDA_2019_PROGRAMMHEFT.pdf";
+const outputJSONFile = "./json/projectsData2019.json";
 
 const projects = [];
 
@@ -12,7 +12,6 @@ const readPDFFile = async () => {
   const pdfText = data.text;
   let projectText = pdfText;
 
-  // Function to extract the project data from the PDF text
   const extractProject = (projectText, startIndexRegex, finishIndexRegex) => {
     const startIndex = projectText.search(startIndexRegex);
     const finishIndex = projectText.search(finishIndexRegex);
@@ -20,7 +19,6 @@ const readPDFFile = async () => {
       projectText = projectText.substring(startIndex, finishIndex);
       const descriptionParts = projectText.split("\n\n");
 
-      // Add the "text" and "pdfName" values to the projects
       for (const descriptionPart of descriptionParts) {
         if (descriptionPart.length > 0) {
           const project = {
@@ -38,14 +36,47 @@ const readPDFFile = async () => {
 
       // Replace some special cases in the text
       for (const project of projects) {
-        if (project.text.includes("Brücke\nerreichbare")) {
-          project.text = project.text.replace("Brücke\nerreichbare", "Brücke \nerreichbare").replace(" \nArchitekt: ", "\nArchitekt: ");
-        } else if (project.text.includes("Gewerbe\nRevitalisierung")) {
-          project.text = project.text.replace("Gewerbe\nRevitalisierung", "Gewerbe \nRevitalisierung");
-        } else if (project.text.includes("St. Pauli \nKlubhaus")) {
-          project.text = project.text.replace("St. Pauli \nKlubhaus", "St. Pauli\nKlubhaus");
-        }
+        if (
+          project.text.includes("\nArchitektur und Stadtplanung\nZeitzeugen")
+        ) {
+          project.text = project.text.split(
+            "\nArchitektur und Stadtplanung\nZeitzeugen"
+          )[0];
+        } else if (project.text.includes(" \n34\n")) {
+          project.text = project.text
+            .replace(" \n34\n", "\n34\n")
+            .replace(
+              "Winterhude \nHauptverwaltung",
+              "Winterhude\nHauptverwaltung"
+            );
+        } else if (project.text.includes("Ohlsdorf\nDenkmalgerechte")) {
+          project.text = project.text
+            .replace("Ohlsdorf\nDenkmalgerechte", "Ohlsdorf \nDenkmalgerechte")
+            .replace("Innensanierung \nDie", "Innensanierung\nDie");
+        } else if (project.text.includes("Wohnen am Volkspark Das Baugrundstück")) {
+          project.text = project.text
+            .replace("Wohnen am Volkspark Das Baugrundstück", "Wohnen am Volkspark\nDas Baugrundstück")
+        } 
+      }
+      
 
+      // Divide the projects that have more than one number and add the new projects to the array
+      for (const project of projects) {
+        if (/(?<!\s)\n\d+\n/g.test(project.text)) {
+          const parts = project.text.split(/(?<!\s)\n\d+\n/g, 2);
+
+          parts.forEach((projectDescription, index) => {
+            if (index === 0) {
+              project.text = projectDescription;
+            } else {
+              const newProject = {
+                text: projectDescription,
+                pdfName: project.pdfName,
+              };
+              projects.push(newProject);
+            }
+          });
+        }
         const regex = /^\d+\s*\n/;
         project.text = project.text.replace(regex, "");
       }
@@ -69,7 +100,7 @@ const readPDFFile = async () => {
 
         // Extract the "Architekten" value
         const startIndexArch = project.text.search(
-          /\nArchitekt:|Architekten: |Stadtplaner:|\nStadtplanungs-|.Architekten:|\nArchitekten |\nStadtplanung:|\nArchitekten:|\nArchitekturbüro:|\nArchitekturbüros:|\nPlanungsbüros:/i
+          /\nArchitekt:|\nStadtplanungs-|.Architekten:|\nArchitekten |\nStadtplanung:|\nArchitekten:|\nArchitekturbüro:|\nArchitekturbüros:|\nPlanungsbüros:/i
         );
         const finishIndexArch = project.text.search(/Führungen:|\nTermine:/i);
         if (startIndexArch !== -1 && finishIndexArch !== -1) {
@@ -79,10 +110,8 @@ const readPDFFile = async () => {
           );
           project.architect = architect
             .replace("Architekt: ", "")
-            .replace("Stadtplaner: ", "")
             .replace("Architekten: ", "")
             .replace("Architekturbüro: ", "")
-            .replace("Architekten / Künstler: ", "")
             .replace("Architekturbüros: ", "")
             .replace("Planungsbüros: ", "")
             .replace("Stadtplanung: ", "")
@@ -110,7 +139,7 @@ const readPDFFile = async () => {
   extractProject(
     projectText,
     /Impressum/i,
-    /Architektur und Stadtplanung\nTo/i
+    / \nArchitektur, Stadtplanung und Ingenieurbaukunst\nTouren/i
   );
 
   fs.writeFileSync(outputJSONFile, JSON.stringify(projects, null, 2));

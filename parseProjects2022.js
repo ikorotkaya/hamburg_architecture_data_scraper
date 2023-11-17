@@ -3,7 +3,7 @@ const path = require("path");
 const pdf = require("pdf-parse");
 
 const pdfFile= "./downloaded_pdfs/TDA_2022_PROGRAMMHEFT.pdf";
-const outputJSONFile = "./json/parsed_2022_data.json";
+const outputJSONFile = "./json/projectsData2022.json";
 
 const projects = [];
 

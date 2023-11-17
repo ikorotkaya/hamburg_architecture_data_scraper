@@ -2,8 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const pdf = require("pdf-parse");
 
-const pdfFile = "./downloaded_pdfs/TDA_2015_PROGRAMMHEFT.pdf";
-const outputJSONFile = "./json/parsed_2015_data.json";
+const pdfFile = "./downloaded_pdfs/TDA_2017_PROGRAMMHEFT.pdf";
+const outputJSONFile = "./json/projectsData2017.json";
 
 const projects = [];
 
@@ -38,24 +38,26 @@ const readPDFFile = async () => {
 
       // Replace some special cases in the text
       for (const project of projects) {
-        if (project.text.includes(" Architekten: nps tchoban")) {
-          project.text = project.text.replace(" Architekten: nps tchoban", "\nArchitekten: nps tchoban");
-        } else if (project.text.includes("Wein \nDer")) {
-          project.text = project.text.replace("Wein \nDer", "Wein\nDer");
-        } else if (project.text.includes(" worden. \nArchitekten: ")) {
-          project.text = project.text.replace(" worden. \nArchitekten: ", " worden.\nArchitekten: ");
-        } else if (project.text.includes("Veranstaltungsräumen \nDer")) {
-          project.text = project.text.replace("Veranstaltungsräumen \nDer", "Veranstaltungsräumen\nDer");
-        } else if (project.text.includes("Michel \nUmgestaltung")) {
-          project.text = project.text.replace("Michel \nUmgestaltung", "Michel\nUmgestaltung");
-        } else if (project.text.includes("Höfen \nIm")) {
-          project.text = project.text.replace("Höfen \nIm", "Höfen\nIm");
-        } else if (project.text.includes("der Elbe \nDas ")) {
-          project.text = project.text.replace("der Elbe \nDas ", "der Elbe\nDas ");
-        } else if (project.text.includes("zur\nVersammlungsstätte ")) {
-          project.text = project.text.replace("zur\nVersammlungsstätte ", "zur \nVersammlungsstätte ");
+        if (project.text.includes("\n2014 ")) {
+          project.text = project.text.replace("\n2014 ", " 2014 ");
+        } else if (project.text.includes("Nissen\nNeuer")) {
+          project.text = project.text.replace("Nissen\nNeuer", "Nissen Neuer");
+        } else if (project.text.includes("Haus 2\nMehrfamilienhaus")) {
+          project.text = project.text.replace(
+            "Haus 2\nMehrfamilienhaus",
+            "Haus 2, Mehrfamilienhaus"
+          );
+        } else if (project.text.includes("Haus 1\nNeubau")) {
+          project.text = project.text.replace(
+            "Haus 1\nNeubau",
+            "Haus 1, Neubau"
+          );
+        } else if (project.text.includes("Elbphilharmonie")) {
+          const updatedText =
+            "\nTreffpunkt: Platz der Deutschen Einheit 1, 20457 Hamburg";
+          project.text = project.text + updatedText;
         }
-        
+
         const regex = /^\d+\s*\n/;
         project.text = project.text.replace(regex, "");
       }
@@ -79,7 +81,7 @@ const readPDFFile = async () => {
 
         // Extract the "Architekten" value
         const startIndexArch = project.text.search(
-          /\nArchitekt:|Architekten: |Ingenieure: |Stadtplaner:|\nStadtplanungs-|.Architekten:|\nArchitekten |\nStadtplanung:|\nArchitekten:|\nArchitekturbüro:|\nArchitekturbüros:|\nPlanungsbüros:/i
+          /\nArchitekt:|Architekten: |Stadtplaner:|\nStadtplanungs-|.Architekten:|\nArchitekten |\nStadtplanung:|\nArchitekten:|\nArchitekturbüro:|\nArchitekturbüros:|\nPlanungsbüros:/i
         );
         const finishIndexArch = project.text.search(/Führungen:|\nTermine:/i);
         if (startIndexArch !== -1 && finishIndexArch !== -1) {
@@ -92,7 +94,6 @@ const readPDFFile = async () => {
             .replace("Stadtplaner: ", "")
             .replace("Architekten: ", "")
             .replace("Architekturbüro: ", "")
-            .replace("Ingenieure: ", "")
             .replace("Architekten / Künstler: ", "")
             .replace("Architekturbüros: ", "")
             .replace("Planungsbüros: ", "")
@@ -120,8 +121,8 @@ const readPDFFile = async () => {
 
   extractProject(
     projectText,
-    /Architektur\nEinzelbauwerke\n\n/i,
-    /Architektur\nTouren\n/i
+    /Impressum/i,
+    /Architektur und Stadtplanung\nTo/i
   );
 
   fs.writeFileSync(outputJSONFile, JSON.stringify(projects, null, 2));
