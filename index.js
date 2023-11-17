@@ -32,7 +32,7 @@ const baseUrl = "https://www.tda-hamburg.de";
     }
 
     const jsonData = JSON.stringify(allProjectData, null, 2);
-    const outputPath = "json/parsed_2023_data.json"; //update file name with year
+    const outputPath = "json/projectsData2023.json"; //update file name with current year
 
     fs.writeFile(outputPath, jsonData, (error) => {
       if (error) {

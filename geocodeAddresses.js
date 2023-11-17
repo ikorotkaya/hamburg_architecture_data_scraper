@@ -2,8 +2,8 @@ const fs = require('fs');
 const axios = require('axios');
 
 const apiKey = ""; // Replace with your Google Maps Geocoding API key
-const inputJsonFile = 'all_projects.json'; 
-const outputJsonFile = 'final_projects.json'; 
+const inputJsonFile = 'json/mergedProjects.json'; 
+const outputJsonFile = 'json/mergedGeocodedProjects.json'; 
 
 // Function to geocode an address
 async function geocodeAddress(address) {
