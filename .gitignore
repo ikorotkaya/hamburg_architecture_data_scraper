@@ -6,3 +6,5 @@ images/
 .env
 
 config/config.json
+
+bin/

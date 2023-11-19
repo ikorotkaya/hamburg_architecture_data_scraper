@@ -2,7 +2,9 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 
+const finalProjects = require("../json/finalProjects.json");
 const parseWebProjectData = require("../helpers/parseWebProjectData");
+const geocodeAddress = require("../helpers/geocodeAddress");
 
 const baseUrl = "https://www.tda-hamburg.de";
 
@@ -21,19 +23,33 @@ const baseUrl = "https://www.tda-hamburg.de";
       }
     });
 
+    const maxProjectIndex = finalProjects.length;
     const allProjectData = [];
 
-    for (const link of projectLinks) {
-      const projectData = await parseWebProjectData(link);
-      if (projectData !== null) {
+    for (let i = 0; i < projectLinks.length; i++) {
+      const projectLink = projectLinks[i];
+      const projectData = await parseWebProjectData(projectLink);
+      if (projectData) {
+        projectData.id = maxProjectIndex + i;
         allProjectData.push(projectData);
       } else {
-        console.log(`Skipping ${link}`);
+        console.log(`Skipping ${projectLink}`);
       }
     }
 
-    const jsonData = JSON.stringify(allProjectData, null, 2);
-    const outputPath = "json/projectsData2024.json"; //update file name with current year
+    const geocodedData = await Promise.all(
+      allProjectData.map(async (project) => {
+        const { lat, lng } = await geocodeAddress(project.address);
+        return {
+          ...project,
+          lat,
+          lng,
+        };
+      })
+    );
+
+    const jsonData = JSON.stringify(geocodedData.filter(Boolean), null, 2);
+    const outputPath = "json/projectsData20--.json"; //update file name with current year
 
     fs.writeFile(outputPath, jsonData, (error) => {
       if (error) {
