@@ -1,7 +1,8 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
-const parseWebProjectData = require("./parseWebProjectData");
+
+const parseWebProjectData = require("../helpers/parseWebProjectData");
 
 const baseUrl = "https://www.tda-hamburg.de";
 
@@ -32,7 +33,7 @@ const baseUrl = "https://www.tda-hamburg.de";
     }
 
     const jsonData = JSON.stringify(allProjectData, null, 2);
-    const outputPath = "json/projectsData2023.json"; //update file name with current year
+    const outputPath = "json/projectsData2024.json"; //update file name with current year
 
     fs.writeFile(outputPath, jsonData, (error) => {
       if (error) {
@@ -41,8 +42,6 @@ const baseUrl = "https://www.tda-hamburg.de";
         console.log(`Data written to ${outputPath}`);
       }
     });
-
-
   } catch (error) {
     console.log(error);
   }
