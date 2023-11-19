@@ -2,8 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const pdf = require("pdf-parse");
 
-const pdfFilePath = "./downloaded_pdfs/TDA_2014_PROGRAMMHEFT.pdf";
-const outputJSONFilePath = "./json/projectsData2014.json";
+const pdfFilePath = "parsePreviousPDFsData/downloaded_pdfs/TDA_2014_PROGRAMMHEFT.PDF";
+const outputJSONFilePath = "./json/projectsData20--.json";
 
 const projects = [];
 
@@ -16,13 +16,14 @@ const readAndExtractPDF = async () => {
   const extractProject = (projectText, startIndexRegex, finishIndexRegex) => {
     const startIndex = projectText.search(startIndexRegex);
     const finishIndex = projectText.search(finishIndexRegex);
+
     if (startIndex !== -1 && finishIndex !== -1) {
       projectText = projectText.substring(startIndex, finishIndex);
       const descriptionParts = projectText.split("\n\n");
 
       // Add the "text" and "pdfName" values to the projects
       for (const descriptionPart of descriptionParts) {
-        if (descriptionPart.length > 0) {
+        if (descriptionPart.length > 0 && descriptionPart.includes("Treffpunkt:")) {
           const project = {
             text: descriptionPart
               .replace(/-\n/g, " ")
@@ -77,16 +78,6 @@ const readAndExtractPDF = async () => {
           project.description = description.replace(/ ?\n ?/g, "");
         }
 
-        // const startIndexDescription= project.text.search(description);
-        // const finishIndexDescription= project.text.search(/\nFührungen:/i);
-        // if (startIndexDescription!== -1 && finishIndexDescription!== -1) {
-        //   const description = project.text.substring(
-        //     startIndexDescription,
-        //     finishIndexDescription
-        //   );
-        //   project.description = description.replace(/ ?\n ?/g, "");
-        // }
-
         // Extract the "Architekten" value
         const startIndexArch = project.text.search(/\nFührungen:/i);
         const finishIndexArch = project.text.search(/Termine:/i);
@@ -109,7 +100,10 @@ const readAndExtractPDF = async () => {
             .replace("Treffpunkt: ", "")
             .replace(/\s+$/, "")
             .replace(/ ?\n ?/g, "");
-        }
+          }
+
+        delete project.text;
+        delete project.pdfName;
       }
     }
   };
