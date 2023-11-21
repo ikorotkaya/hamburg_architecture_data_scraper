@@ -4,6 +4,8 @@ const parseWebProjectData = require("./parseWebProjectData");
 const geocodeAddress = require("./geocodeAddress");
 const translateText = require("./translateText");
 
+const existingFinalProjects = require("../json/finalProjects.json");
+
 async function processAndWriteFinalProjects(projectLinks, outputPath, startingId) {
   const translatedProjects = await Promise.all(
     projectLinks.map(async (projectLink, index) => {
@@ -35,6 +37,16 @@ async function processAndWriteFinalProjects(projectLinks, outputPath, startingId
     })
   );
 
+  const updatedFinalProjects = [...existingFinalProjects, ...translatedProjects.filter(Boolean)];
+
+  fs.writeFile("json/finalProjects.json", JSON.stringify(updatedFinalProjects, null, 2), (err) => {
+    if (err) {
+      console.error("Error updating the finalProjects.json file:", err);
+    } else {
+      console.log("Projects appended to finalProjects.json file.");
+    }
+  });
+
   const jsonData = JSON.stringify(translatedProjects.filter(Boolean), null, 2);
 
   fs.writeFile(outputPath, jsonData, (err) => {
@@ -44,6 +56,7 @@ async function processAndWriteFinalProjects(projectLinks, outputPath, startingId
       console.log("Translation and writing successful. JSON file updated.");
     }
   });
+
 }
 
 module.exports = processAndWriteFinalProjects;

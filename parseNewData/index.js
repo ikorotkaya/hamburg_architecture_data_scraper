@@ -5,6 +5,7 @@ const processAndWriteFinalProjects = require("../helpers/processAndWriteFinalPro
 const finalProjects = require("../json/finalProjects.json");
 
 const baseUrl = "https://www.tda-hamburg.de";
+const year = 2024; // change this to the current year to get the correct name of the output file
 
 (async () => {
   try {
@@ -21,7 +22,7 @@ const baseUrl = "https://www.tda-hamburg.de";
       }
     });
 
-    const outputPath = "json/projectsData`year`.json"; // change this to the current year
+    const outputPath = `json/projectsData${year}.json`;
     const startingId = finalProjects.length > 0 ? finalProjects[finalProjects.length - 1].id : 1;
 
     await processAndWriteFinalProjects(projectLinks, outputPath, startingId);
