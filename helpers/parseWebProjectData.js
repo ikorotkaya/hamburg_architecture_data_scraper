@@ -33,7 +33,7 @@ const parseWebProjectData = async (link) => {
     if (!projectData.address.includes("Hamburg")) {
       projectData.address += ", Hamburg";
     }
-    
+
     projectData.architect = $("div.detail-row:contains('Architekturbüro') p")
       .text()
       .trim();
@@ -46,21 +46,13 @@ const parseWebProjectData = async (link) => {
         .replace(/, $/, "");
     }
 
-    // const imageSrc = $("div.iteminnerimage img").attr("src");
-    // if (imageSrc) {
-    //   const imageUrl = BASE_URL + imageSrc;
-    //   if (imageUrl) {
-    //     const options = {
-    //       url: imageUrl,
-    //       dest: path.join(__dirname, "images", projectData.id + ".jpg"),
-    //     };
-    //     await download.image(options);
-    //     console.log("Image saved successfully.");
-    //   }
-    // }
-    
+    const imageSrc = $("div.iteminnerimage img").attr("src");
+    if (imageSrc) {
+      const imageUrl = BASE_URL + imageSrc;
+      projectData.imageUrl = imageUrl;
+    }
+
     return projectData;
-    
   } catch (error) {
     console.error("Error parsing project data:", error.message);
     return null;

@@ -33,7 +33,10 @@
   },
   {
     "district": "Altstadt",
-    "title": { "de": "Katharinenquartier", "en": "Katharinenquartier" },
+    "title": {
+      "de": "Katharinenquartier",
+      "en": "Katharinenquartier"
+    },
     "description": {
       "de": "Das neue Wohnquartier mit 131 Mietwohnungen und kleineren Gewerbeeinheiten an der Achse zwischen Rathaus und HafenCity, dem sogenannten Katharinenweg, trägt zur Belebungder Altstadt bei. Der Abschirmung gegenüber dem Auto verkehr auf der Willy-Brandt-Straße dient das nördliche Büro und Geschäftsgebäude. So bildet ein Ensemble aus drei Gebäuden das Quartier um einen begrünten, gemeinschaftlichgenutzten Innenhof. Die Fassaden sind von dem für die Altstadt typischen Material Backstein geprägt.",
       "en": "The new residential quarter with 131 rental flats and smaller commercial units on the axis between the town hall and HafenCity, the so-called Katharinenweg, contributes to the revitalisation of the old town. The northern office and commercial building serves to shield the area from car traffic on Willy-Brandt-Strasse. An ensemble of three buildings forms the neighbourhood around a green, communal inner courtyard. The façades are characterised by the brick material typical of the old town."
@@ -46,7 +49,10 @@
   },
   {
     "district": "Bahrenfeld",
-    "title": { "de": "Pförtnergebäude DESY", "en": "DESY gatehouse building" },
+    "title": {
+      "de": "Pförtnergebäude DESY",
+      "en": "DESY gatehouse building"
+    },
     "description": {
       "de": "Das vorhandene Pförtnergebäude am Haupteingang Notkestraße wurde durch einen markanten Neubau ersetzt. Entstanden ist ein Gebäude mit einem weit auskragenden, geneigten Dach aus Stahlbeton. In seiner skulpturalen Ausprägung formuliert es mit einer einladenden Geste deutlichden Eingang zum DESY-Gelände. Die dynamische Konstruk tion steht für die innovativen Forschungsinhalte von DESY.",
       "en": "The existing gatehouse at the main entrance on Notkestraße was replaced by a striking new building. The result is a building with a widely projecting, sloping roof made of reinforced concrete. In its sculptural form, it clearly formulates the entrance to the DESY site with an inviting gesture. The dynamic construction symbolises the innovative research content of DESY."
@@ -443,7 +449,10 @@
   },
   {
     "district": "Altona",
-    "title": { "de": "Elbdeck Hamburg", "en": "Elbe deck Hamburg" },
+    "title": {
+      "de": "Elbdeck Hamburg",
+      "en": "Elbe deck Hamburg"
+    },
     "description": {
       "de": "Neubau des Wohn- und Geschäftsgebäudes Elbdeck mitrund 100 hochwertig ausgestatteten Wohnungen am Elbufer.Eine Tiefgarage mit rund 280 Stellplätzen bildet den Sockel,der gleichzeitig als Flutschutzpolder dient, zuzüglich Büros,Gastronomie- und Ladenflächen in den Erdgeschossen und teilweise dem 1./2.OG. Die gewählte hellrote Farbigkeitdes Ziegels, die im freundlichen Kontrast zu den weißen Putzflächen steht, verleiht dem Elbdeck Hamburg ein medi terranes Flair und wirkt stets heiter - selbst an trüben Tagen.",
       "en": "New construction of the Elbdeck residential and commercial building with around 100 high-quality flats on the banks of the Elbe, an underground car park with around 280 parking spaces forms the base, which also serves as a flood protection buffer, plus offices, restaurants and retail space on the ground floors and partly on the first and second floors. The chosen light red colour of the brick, which stands in friendly contrast to the white plaster surfaces, gives the Elbdeck Hamburg a Mediterranean flair and always appears cheerful - even on dull days."
@@ -456,7 +465,10 @@
   },
   {
     "district": "Altona",
-    "title": { "de": "Ikea Altona Hamburg", "en": "Ikea Altona Hamburg" },
+    "title": {
+      "de": "Ikea Altona Hamburg",
+      "en": "Ikea Altona Hamburg"
+    },
     "description": {
       "de": "Über drei Geschosse präsentiert sich der erste innerstäd tische Ikea Fachmarkt. Im Vordergrund der Bauaufgabe standdie Entwicklung eines Fassadensystems, das die Bedürfnisseder Kunden und Anwohner gleichermaßen berücksichtigt.Das Grundthema bildet hierfür ein Strichcode, definiert durchschuppenartig aneinandergefügte, gekantete Metallpaneele.Je nach Standpunkt zeigt sich das Gebäude farbig oder neutralund vereint so die zwei konträren Ziele in einer Fassade.",
       "en": "The first city centre Ikea specialist store is spread over three storeys. The focus of the construction task was to develop a façade system that takes into account the needs of customers and residents alike.the basic theme for this is a barcode, defined by folded metal panels joined together like scales.depending on the point of view, the building appears colourful or neutral and thus combines the two contrasting objectives in one façade"
@@ -597,7 +609,10 @@
   },
   {
     "district": "Hammerbrook",
-    "title": { "de": "Hausboot „Schwan“", "en": "Houseboat “Swan”" },
+    "title": {
+      "de": "Hausboot „Schwan“",
+      "en": "Houseboat “Swan”"
+    },
     "description": {
       "de": "In diesem Hausbootentwurf verbindet sich das indi viduelle Leben auf dem Wasser mit der nachhaltigen Nutzung möglichst weniger fossiler Ressourcen. Zur funktionalen Zonierung des Grundrisses ist der Baukörper in Scheiben unterteilt. Das Hausboot wurde als klassischer Holzrahmenbau auf einem Stahlbeton-Ponton ausgeführt. Neben der Dämmung der Hülle wurden aktive Systeme integriert und die Speicherung von Warmwasser und Strom durch Sonnenenergie einbezogen.",
       "en": "This houseboat design combines individual living on the water with the sustainable use of as few fossil resources as possible. The structure is divided into slices for functional zoning of the floor plan. The houseboat was designed as a classic timber frame construction on a reinforced concrete pontoon. In addition to the insulation of the shell, active systems were integrated and the storage of hot water and electricity through solar energy was included."
@@ -610,7 +625,10 @@
   },
   {
     "district": "Hammerbrook",
-    "title": { "de": "Hausboot „Sonn  Dusel“", "en": "Houseboat “Sonn Dusel”" },
+    "title": {
+      "de": "Hausboot „Sonn  Dusel“",
+      "en": "Houseboat “Sonn Dusel”"
+    },
     "description": {
       "de": "In den Räumen des Hausbootes soll sich das Gefühl vermitteln, auf einem Boot zu sein. Daher wurde der Schlaf bereich tiefer gelegt. Die Bewohner „tauchen“ so zu den „Kojen“ ab. Der Wohnbereich liegt dagegen auf Wasser niveau und kann über eine Schiebetüre großflächig zum Wasser hin geöffnet werden. Durch die Verteilung der Räumeauf zwei Niveaus ist die Trennung in einen öffentlicheren und einen privaten Bereich und die Brückengängigkeit fürden Standort gewährleistet worden.",
       "en": "In the rooms of the houseboat, you should have the feeling of being on a boat. The sleeping area has therefore been lowered. The occupants 'dive' down to the 'bunks'. The living area, on the other hand, is at water level and can be opened up to the water via a large sliding door. By dividing the rooms into two levels, the separation into a more public and a private area and the accessibility of the site by bridge has been ensured."
@@ -719,7 +737,10 @@
   },
   {
     "district": "Steinwerder",
-    "title": { "de": "Theater an der Elbe", "en": "Theater on the Elbe" },
+    "title": {
+      "de": "Theater an der Elbe",
+      "en": "Theater on the Elbe"
+    },
     "description": {
       "de": "Das im letzten Jahr von Stage Entertainment neu er öffnete Musical-Theater prägt v.a. durch seine glänzende Edelstahlfassade die Ansicht auf die Hafenkante gegenüber den Landungsbrücken. Dahinter verbirgt sich ein Theater gebäude mit bis zu 1.900 Sitzplätzen, mit einem vollflächig verglasten Foyer, ein Betriebsgebäude mit Künstlergarde roben, Probenräumen, Büros, Werkstätten, Mitarbeiterkantinesowie der 26 Meter hohe Bühnenturm mit Schnürboden und Eisernem Vorhang.",
       "en": "The musical theatre, newly opened last year by Stage Entertainment, dominates the view of the harbour edge opposite the Landungsbrücken bridges with its gleaming stainless steel façade. Behind it is a theatre building with up to 1,900 seats, a fully glazed foyer, an operations building with artists' dressing rooms, rehearsal rooms, offices, workshops, staff canteens and the 26-metre-high stage tower with a laced floor and iron curtain"
@@ -748,7 +769,10 @@
   },
   {
     "district": "St. Georg Süd / Hammerbrook",
-    "title": { "de": "Mehr! Theater Hamburg", "en": "More! Theater Hamburg" },
+    "title": {
+      "de": "Mehr! Theater Hamburg",
+      "en": "More! Theater Hamburg"
+    },
     "description": {
       "de": "Auf dem Gelände des Hamburger Großmarktes ist, in denBestand integriert, ein Musiktheater entstanden. Ein Teil desbestehenden Industriebaus aus dem Jahre 1962 ist hier zurVersammlungsstätte (Musiktheater mit Nutzungsmöglichkeitals Mehrzweckhalle) umgenutzt worden. Die unter Denkmal schutz stehende Halle (Architekt: Bernhard Hermkes) ist alseine baulich ungeteilte Fläche ausgeführt. Die Anforderungenan Gründung und statische Gegebenheiten stellten somitgroße Herausforderungen dar.",
       "en": "A music theatre has been built on the site of the Hamburg wholesale market, integrated into the existing building. Part of the existing industrial building from 1962 has been converted into a venue (music theatre with the possibility of use as a multi-purpose hall). The listed hall (architect: Bernhard Hermkes) is designed as a structurally undivided area. The foundation and structural requirements therefore posed major challenges."
@@ -777,7 +801,10 @@
   },
   {
     "district": "St. Pauli",
-    "title": { "de": "Budapester Lofts", "en": "Budapest lofts" },
+    "title": {
+      "de": "Budapester Lofts",
+      "en": "Budapest lofts"
+    },
     "description": {
       "de": "Von 2011 an wuchsen an der Budapester Straße zwei Loftgebäude von insgesamt 5.800 m² für kreative Dienst leister. Planungsziel war es, charakterstarke Gebäude und Flächen zu entwickeln, die den Nutzern Inspiration und Flexibilität bieten. Kleine Unterschiede wie Erker, Terrassen oder schmale Balkone geben den Flächen in jedem Geschoss einen individuellen Charakter. Das puristische Innenleben war als Arbeitsumfeld sofort gefragt: Binnen kurzer Zeit füllten Mieter das Ensemble mit Leben.",
       "en": "From 2011 onwards, two loft buildings totalling 5,800 m² for creative service providers grew on Budapester Strasse. The planning objective was to develop buildings and spaces with a strong character that offer users inspiration and flexibility. Small differences such as bay windows, terraces or narrow balconies give the spaces on each floor an individual character. The purist interior was immediately in demand as a working environment: tenants quickly filled the ensemble with life."
@@ -902,7 +929,10 @@
   },
   {
     "district": "Altona",
-    "title": { "de": "Stadthaus Palmaille 98", "en": "Townhouse Palmaille 98" },
+    "title": {
+      "de": "Stadthaus Palmaille 98",
+      "en": "Townhouse Palmaille 98"
+    },
     "description": {
       "de": "Als Referenz für diese Interpretation großbürger lichen Wohnens dient das schönste Haus der Palmaille, das „Einfensterhaus“ von Christian Frederik Hansen. Herausfor derungen waren die Lage im Geltungsbereich eines über holten Durchführungsplans, einer Gestaltungs satzung, einersozialen Erhaltensverordnung, über einem S-Bahntunnel, in geschlossener Bebauung mit nicht unterkel lerten Baudenk malen, an einer lärmintensiven Straße sowie die Überschrei tung der festgesetzten Bruttogrundfläche um 140 Prozent.",
       "en": "The most beautiful house on Palmaille, the 'Einfensterhaus' by Christian Frederik Hansen, serves as a reference for this interpretation of upper middle-class living. The challenges were the location in the area of application of a superseded implementation plan, a design statute, a social conservation ordinance, above a suburban railway tunnel, in a closed development with unrestricted building concepts, on a noisy street and exceeding the specified gross floor area by 140 per cent."
@@ -915,7 +945,10 @@
   },
   {
     "district": "Altona",
-    "title": { "de": "Die Neue Mitte Altona", "en": "The New Center Altona" },
+    "title": {
+      "de": "Die Neue Mitte Altona",
+      "en": "The New Center Altona"
+    },
     "description": {
       "de": "Die „Neue Mitte Altona“ behandelt ein ca. 30 Hektar großesPlanungsgebiet, das sich unmittelbar nördlich des Bahn  hofs Altona im Bezirk Altona befindet und sich im Nordenbis zum Gleisbogen an der Stresemannstraße erstrecktund die Gleisanlagen des Bahnhofs und den ehemaligen Güterbahnhof Altona umfasst. Hier entstehen ca. 3.600 Woh  nungen, Geschäfte, Grünanlagen und öffentliche Einrich tungen. Ein Quartier zu schaffen und Ottensen und Altona Nord zu verbinden, ist die vorliegende Herausforderungdieses Projekts.",
       "en": "Neue Mitte Altona' covers a planning area of around 30 hectares, which is located directly north of Altona railway station in the district of Altona and extends northwards to the railway bend on Stresemannstrasse, encompassing the railway station tracks and the former Altona goods station. Around 3,600 flats, shops, green spaces and public facilities are being built here. The challenge of this project is to create a neighbourhood and connect Ottensen and Altona Nord."
@@ -1008,7 +1041,10 @@
   },
   {
     "district": "Blankenese",
-    "title": { "de": "Villa Baurs Park", "en": "Villa Baurs Park" },
+    "title": {
+      "de": "Villa Baurs Park",
+      "en": "Villa Baurs Park"
+    },
     "description": {
       "de": "Die denkmalgeschützte Villa von 1924, am Elb hang in Blan kenese gelegen, wurde grundlegend überar  beitet und durch einen Neubauteil erweitert. Mit den vorgelager ten,sich dem Hang angepasst staffelnden Terrassen gehen Innen- und Außenraum wie nahtlos ineinander über. Aufallen Ebenen bieten sich Blicke auf die Elbe. Dies erfor derte eine intensive architektonische und handwerkli cheDurcharbeitung und besondere Detaillösungen.",
       "en": "The listed villa from 1924, located on the banks of the Elbe in Blan kenese, has been completely renovated and extended with a new section. With the terraces in front, which are staggered to match the slope, the interior and exterior spaces merge seamlessly into one another. All levels offer views of the Elbe. This required intensive architectural and technical elaboration and special detailed solutions."
@@ -1117,7 +1153,10 @@
   },
   {
     "district": "Hamm",
-    "title": { "de": "Hansaterrassen", "en": "Hansa terraces" },
+    "title": {
+      "de": "Hansaterrassen",
+      "en": "Hansa terraces"
+    },
     "description": {
       "de": "Das Wohnquartier Hansaterrassen befindet sich in direkterNähe zur historischen Hansaburg (1913-1915), die früher als Papierfabrik genutzt wurde und heute in Teilen unterDenkmalschutz steht. Das Quartier orientiert sich an denstädtebaulichen Gegebenheiten. Durch Aufnahme der typischen hamburgischen Kanalkantenbebauung wurde ein einheitliches Gesamtensemble mit der Hansaburg geschaffen. Durch die Einzelgebäudeausbildung und derenzueinander verschobene Positionierung haben alle Bewohner einen freien Blick auf das Wasser erhalten.",
       "en": "The Hansaterrassen residential neighbourhood is located in the immediate vicinity of the historic Hansaburg (1913-1915), which was formerly used as a paper factory and is now partly a listed building. The neighbourhood is based on the urban planning conditions. By incorporating the typical Hamburg canal-side buildings, a uniform overall ensemble with the Hansaburg was created. The individual buildings and their staggered positioning have given all residents a clear view of the water."
@@ -1130,7 +1169,10 @@
   },
   {
     "district": "Hammerbrook",
-    "title": { "de": "BüroBoot LORE", "en": "Office boat LORE" },
+    "title": {
+      "de": "BüroBoot LORE",
+      "en": "Office boat LORE"
+    },
     "description": {
       "de": "Die Bauform des schwimmenden Büros erinnert an alte Hafenlieger, welche in Hamburg früher für Werkstätten undBüros im Hafengebiet genutzt wurden. Darüber hinaussind die Gegensätze der Umgebung in den Entwurf einge gangen und in der Materialwahl widergespiegelt. Dasgebrauchte Holz steht für den rauen Charme der angren zenden Werkstätten und Hinterhöfe, die metallene Fassade in Goldoptik für die benachbarte GeschäftsweltHammerbrooks mit ihren hochwertigen Büros.",
       "en": "The design of the floating office is reminiscent of old harbour berths, which used to be used for workshops and offices in Hamburg's port area. In addition, the contrasts of the surroundings have been incorporated into the design and reflected in the choice of materials. The used wood stands for the rough charm of the neighbouring workshops and backyards, the metal façade in gold look for the neighbouring business world of Hammerbrook with its high-quality offices."
@@ -1271,7 +1313,10 @@
   },
   {
     "district": "Rotherbaum",
-    "title": { "de": "Apartimentum", "en": "apartment" },
+    "title": {
+      "de": "Apartimentum",
+      "en": "apartment"
+    },
     "description": {
       "de": "Das „Apartimentum“ ist ein neu errichtetes Wohn- und Geschäftshaus unter Erhalt der gründerzeitlichen Fassadeam Mittelweg in Hamburg-Rotherbaum. Die Bestands fassade wurde um einen zweigeschossigen Dachkörper ergänzt, dessen Fensterbänder aus dem Prinzip eines Barcodes abgeleitet wurden. Zum Innenhof zeigt sich derNeubau mit moderner Fassade. Der Bauherr hat das Gebäude konsequent als Smart-Home entwickeln lassen -von der Eingangstür bis zur Wohnungsausstattung lässt sich das Haus digital bedienen.",
       "en": "Apartimentum' is a newly constructed residential and commercial building on Mittelweg in Hamburg-Rotherbaum that has retained its Wilhelminian-style façade. The existing façade was supplemented by a two-storey roof structure, the window bands of which were derived from the principle of a barcode. The new building faces the inner courtyard with a modern façade. The client had the building consistently developed as a smart home - the house can be operated digitally from the entrance door to the flat fittings."
@@ -1348,7 +1393,10 @@
   },
   {
     "district": "St. Pauli",
-    "title": { "de": "Klubhaus St. Pauli", "en": "St. Pauli clubhouse" },
+    "title": {
+      "de": "Klubhaus St. Pauli",
+      "en": "St. Pauli clubhouse"
+    },
     "description": {
       "de": "Das Klubhaus St. Pauli verfolgt das Ziel, das Livemusik angebot auf der Reeperbahn zu ergänzen und mit seinenvielfältigen kulturellen Nutzungen die Ausgehmeile für deren Besucher noch attraktiver zu gestalten. Die Fassadedes Klubhauses wurde entworfen unter der Prämisse, die Integration von Medien in die Architektur neu zu denken. Eigens konzipierte Metallgittermodule, mit LED-Technikbestückt, sind in unterschiedlichen Ebenen vor der eigent lichen Gebäudehaut angeordnet und generieren eine dreidimensionale Topografie.",
       "en": "The aim of the Klubhaus St. Pauli is to complement the live music offerings on the Reeperbahn and to make the nightlife area even more attractive for visitors with its diverse cultural uses. The facade of the clubhouse was designed under the premise of rethinking the integration of media into the architecture. Specially designed metal grid modules, equipped with LED technology, are arranged on different levels in front of the actual building skin and generate a three-dimensional topography."
@@ -1392,7 +1440,10 @@
   },
   {
     "district": "Altstadt",
-    "title": { "de": "Hamburg Süd", "en": "Hamburg South" },
+    "title": {
+      "de": "Hamburg Süd",
+      "en": "Hamburg South"
+    },
     "description": {
       "de": "Der Sitz der traditionsreichen Reederei Hamburg Süd wurde grundlegend saniert und um einen 7-geschossigenBüroneubau und eine 2-geschossige Tiefgarage erwei tert. Die Sanierungsmaßnahmen des denkmalgeschützten Gebäudeensembles (1958 bis 1964), ein Entwurf des Architekten Cäsar Pinnau, umfassen u.a. eine energetischeSanierung und die Erneuerung der Fassaden. In Abstim mung mit dem Denkmalschutz wurden alle Fassaden entfernt und die Gebäude bis auf die tragende Teile entkernt.",
       "en": "The headquarters of the long-established Hamburg Süd shipping company has been thoroughly renovated and extended by a new 7-storey office building and a 2-storey underground car park. The refurbishment measures for the listed building ensemble (1958 to 1964), designed by architect Caesar Pinnau, include an energy-efficient refurbishment and the renovation of the façades. In consultation with the conservation authorities, all façades were removed and the buildings were gutted down to the load-bearing parts."
@@ -1469,7 +1520,10 @@
   },
   {
     "district": "Eppendorf",
-    "title": { "de": "The Quality Street", "en": "The Quality Street" },
+    "title": {
+      "de": "The Quality Street",
+      "en": "The Quality Street"
+    },
     "description": {
       "de": "In einer versteckten Hoflage am Eppendorfer Marktplatzsind auf dem Gelände einer ehemaligen Bonbonpapier fabrik neue Wohngebäude in Ergänzung zu bestehendenAltbauten entwickelt worden. Ehemals war das Geländefast vollständig überbaut, nun bilden individuelle Häuser einvielschichtiges, innerstädtisches Ensemble, das durch seine Lage der städtischen Hektik vollkommen entrückt zusein scheint.",
       "en": "In a hidden courtyard location on the Eppendorf market square, new residential buildings have been developed on the site of a former sweet wrapper factory to complement the existing old buildings. In the past, the site was almost completely built over, but now individual houses form a multi-layered, inner-city ensemble that seems to be completely removed from the hustle and bustle of the city due to its location."
@@ -1498,7 +1552,10 @@
   },
   {
     "district": "HafenCity",
-    "title": { "de": "Elbphilharmonie", "en": "Elbphilharmonie" },
+    "title": {
+      "de": "Elbphilharmonie",
+      "en": "Elbphilharmonie"
+    },
     "description": {
       "de": "Die Elbphilharmonie ist nicht nur ein Haus für die Musik mit einer Konzerthalle für 2100 und einem Kammermusik saal für 550 Besucher. Die beiden übereinander gesta pelten Architekturen des Kaispeichers und der Philharmonie beherbergen außerdem eine dichte Mischung urbaner Nutzungen: Übungsräume, Wohnungen, Bars, ein Restau rant, ein Hotel, einen Shop sowie Parkplätze. Die Plaza, eine Terrasse mit Blick über Hamburg und den Hafen, stehtallen Menschen offen - als neues Angebot im kulturellenund alltäglichen Leben der Stadt.",
       "en": "The Elbphilharmonie is not just a house for music with a concert hall for 2100 and a chamber music hall for 550 visitors. The two superimposed buildings of the Kaispeicher and the Philharmonie also house a dense mix of urban uses: rehearsal rooms, flats, bars, a restaurant, a hotel, a shop and car parks. The plaza, a terrace with a view over Hamburg and the harbour, is open to everyone - as a new addition to the city's cultural and everyday life"
@@ -1639,7 +1696,10 @@
   },
   {
     "district": "Harvestehude",
-    "title": { "de": "Sophienpalais", "en": "Sophienpalais" },
+    "title": {
+      "de": "Sophienpalais",
+      "en": "Sophienpalais"
+    },
     "description": {
       "de": "Das Sophienpalais entstand 1935 und diente als militäri sches Verwaltungsgebäude. Das Gebäude, das durchseinen reduzierten, neoklassizistischen Habitus und seineSymmetrie beeindruckt, wurde in hochwertigen Wohn raum umgestaltet. In enger Abstimmung mit dem Denkmal schutz entkernten und modernisierten ksg architekten und stadtplaner das Sophienpalais. Die umlaufenden Fas saden blieben erhalten. Nur die Südfassade wurde erneuertund erhielt im Bereich der Wohnungen eine moderne Glasfassade, ergänzt durch Loggien sowie gestalterischeFassadenelemente mit ornamentalem Charakter.",
       "en": "The Sophienpalais was built in 1935 and served as a military administration building. The building, which impresses with its reduced, neoclassical style and symmetry, was converted into high-quality living space. ksg architekten and stadtplaner gutted and modernised the Sophienpalais in close consultation with the conservation authorities. The surrounding façades were retained. Only the south façade was renovated and given a modern glass façade in the area of the flats, supplemented by loggias and design façade elements with an ornamental character."
@@ -1684,7 +1744,10 @@
   },
   {
     "district": "Hummelsbüttel",
-    "title": { "de": "Haus für eine Pianistin", "en": "House for a pianist" },
+    "title": {
+      "de": "Haus für eine Pianistin",
+      "en": "House for a pianist"
+    },
     "description": {
       "de": "Dem Wohnhaus gaben zwei Aspekte seine besondere Gestalt: Das Grundstück ist von einem alten Baumbestandgeprägt. Es galt, das Gebäude schonend zwischen den Bäumen einzufügen. Die Bauherrin ist Konzertpianistin japanischer Herkunft. Der Aufstellungsort des Flügels, seine Sicht- und Hörbarkeit während der Proben und Auf führungen, bildete daher den Ausgangspunkt aller innenräumlichen Überlegungen. Neben diesen besonderenAnforderungen dient das Haus als Zuhause für eine fünfköpfige Familie.",
       "en": "Two aspects gave the house its special shape: the plot is characterised by an old stock of trees. The aim was to integrate the building gently between the trees. The client is a concert pianist of Japanese origin. The location of the grand piano, its visibility and audibility during rehearsals and performances, therefore formed the starting point for all interior design considerations. In addition to these special requirements, the house serves as a home for a family of five."
@@ -1777,7 +1840,10 @@
   },
   {
     "district": "Ohlstedt",
-    "title": { "de": "Kinderkreisel", "en": "children's top" },
+    "title": {
+      "de": "Kinderkreisel",
+      "en": "children's top"
+    },
     "description": {
       "de": "Die preisgekrönte Kinderkrippe (BDA Preis Hamburg 2017und Shortlist Architekturpreis 2017 des Deutschen Archi tekturmuseums) liegt in die Natur eingebettet am Waldrand.Das Gebäude bietet vielfältige Sichtbezüge im Innen- undAußenbereich. Durch eine durchlässige Wand sind die unterschiedlichen Funktionen über den gemeinschaftlichen Innenraum verbunden. Der Holzrahmenbau ist mit einernaturbelassenen Lärchenschalung und großzügigen Glas flächen verkleidet. Diese ermöglichen überraschende Einblicke in das Haus.",
       "en": "The award-winning crèche (BDA Prize Hamburg 2017 and Shortlist Architecture Prize 2017 of the German Architecture Museum) is embedded in nature at the edge of the forest and the building offers a variety of visual references both inside and outside. A permeable wall connects the different functions via the communal interior space. The timber frame construction is clad with natural larch panelling and generous areas of glass. These allow surprising insights into the house."
@@ -1790,7 +1856,10 @@
   },
   {
     "district": "Rissen",
-    "title": { "de": "Campus Rissen", "en": "campus cracks" },
+    "title": {
+      "de": "Campus Rissen",
+      "en": "campus cracks"
+    },
     "description": {
       "de": "Die Stadtteilschule Rissen erhielt am Standort des Gymnasiums Rissen ein neues Schulgebäude. Beide Schulenteilen sich den Campus und wurden um ein gemeinsa mes Aula- und Mensagebäude ergänzt. Zwei Schulen aneinem Standort führen zu Synergieeffekten in räumlicher und pädagogischer Hinsicht. Den grauen und erdfarbenenBetonplatten der Bestandsschulbauten wurden farbige Fassaden mit gepixelten Farbflächen gegenübergestellt.",
       "en": "The Rissen district school was given a new school building on the site of the Rissen grammar school. Both schools share the campus and have been supplemented by a joint assembly hall and canteen building. Two schools at one location lead to synergy effects in terms of space and pedagogy. The grey and earth-coloured concrete slabs of the existing school buildings were contrasted with coloured façades with pixelated colour surfaces."
@@ -2171,7 +2240,10 @@
   },
   {
     "district": "HafenCity",
-    "title": { "de": "Campus Futura", "en": "Campus Futura" },
+    "title": {
+      "de": "Campus Futura",
+      "en": "Campus Futura"
+    },
     "description": {
       "de": "Neubau eines Hotels mit Wohnungsteil Im Fokus der Planung des Jugend- und Familienhotels im Baakenhafen steht ein beeindruckendes Raumerlebnis für die Gäste. Unterschiedliche Ebenen, vielfältige Blick beziehungen und Durchblicke bis zum Wasser prägen die Räume des umweltzertifizierten Hotels. Die fantastischeLage am Hafen brachte eine anspruchsvolle technische Planung mit sich. Flutschutztore zur Hafenseite und ein hoherSchallschutz, bedingt durch die Anbindung der U-Bahn und die Versmannstraße, mussten berücksichtigt werden.",
       "en": "The design of the youth and family hotel in Baakenhafen harbour focuses on an impressive spatial experience for guests. The rooms of the environmentally certified hotel are characterised by different levels, diverse views and vistas down to the water. The fantastic location on the harbour required sophisticated technical planning. Flood protection gates on the harbour side and a high level of soundproofing due to the connection to the underground and Versmannstraße had to be taken into account."
@@ -2200,7 +2272,10 @@
   },
   {
     "district": "Neustadt-Nord",
-    "title": { "de": "WLC - Work Life Center", "en": "WLC - Work Life Center" },
+    "title": {
+      "de": "WLC - Work Life Center",
+      "en": "WLC - Work Life Center"
+    },
     "description": {
       "de": "Die Oberpostdirektion wurde 1883-1887 erbaut und 1997in die Denkmalliste aufgenommen. Die Neuplanung hat die historischen Fassaden und Treppenhäuser sowie dieEisenhalle erhalten. Auf einer neuen Tiefgarage ist die Halleals neue Verbindung zum Ostbau inszeniert. Der Baukör per am Gorch-Fock-Wall ist um eine gläserne Aufstockungergänzt, wie sie bereits am Ostbau ausgeführt wurde. ZumDammtorwall wurde das Haus um einen fünfgeschossigenBüroaufbau erweitert, der die Halle zur Hälfte überkragt.",
       "en": "The Oberpostdirektion was built between 1883 and 1887 and was added to the list of monuments in 1997. The new design has retained the historic façades and stairwells as well as the iron hall. On a new underground car park, the hall is staged as a new connection to the east building. The structure on Gorch-Fock-Wall is supplemented by a glass extension, as was already realised on the Ostbau. Towards the Dam Gate Wall, the building was extended by a five-storey office structure, half of which cantilevers over the hall."
@@ -2341,7 +2416,10 @@
   },
   {
     "district": "Altona",
-    "title": { "de": "Klopstock Höfe", "en": "Klopstock farms" },
+    "title": {
+      "de": "Klopstock Höfe",
+      "en": "Klopstock farms"
+    },
     "description": {
       "de": "Eine Nachverdichtung unter extremen räumlichen Bedin gungen. Das Grundstück befindet sich in einem hoch umbauten schmalen Hinterhof, dessen südliche Seite voneiner viergeschossigen Brandwand abgeschlossen wird. Ist an einem solchen Ort der Bau von 23 neuen Wohnungenmit einem Drittel öffentlich geförderten Wohnungsbauüberhaupt möglich? Dank einer raffinierten Raumorganisa tion ist es gelungen, den besonderen Herausforderungender Bauaufgabe gerecht zu werden.",
       "en": "A redensification under extreme spatial conditions. The plot is located in a narrow rear courtyard with high buildings, the southern side of which is closed off by a four-storey firewall. Is it even possible to build 23 new flats with one third publicly subsidised housing in such a location? Thanks to an ingenious spatial organisation, it was possible to meet the special challenges of the construction task."
@@ -2546,7 +2624,10 @@
   },
   {
     "district": "Neustadt",
-    "title": { "de": "Finnlandhaus Hamburg", "en": "Finland House Hamburg" },
+    "title": {
+      "de": "Finnlandhaus Hamburg",
+      "en": "Finland House Hamburg"
+    },
     "description": {
       "de": "Das 1966 fertig gestellte Hochhaus ist eines der markan testen Gebäude der deutschen Nachkriegsmoderne. Mit seinem freigestellten Treppenhauskern und der filigra nen Vorhangfassade repräsentiert es beispielhaft den Geist des technologischen Aufbruchs der 1960er Jahre.2017 wurde es denkmalgerecht saniert und den aktu ellen Anforderungen an Büronutzungen angepasst. Dabeiwurde die Fassade in alten Dimensionen und Oberflä chen als zweischalige Elementfassade erneuert. Wesent liche Ausbauelemente wurden erhalten.",
       "en": "Completed in 1966, the tower block is one of the most striking buildings of German post-war modernism. With its exposed stairwell core and filigree curtain façade, it exemplifies the spirit of the technological upheaval of the 1960s. In 2017, it was refurbished in line with its listed status and adapted to the current requirements for office use. The façade was renewed in the old dimensions and surfaces as a double-skin element façade. Essential finishing elements were retained."
@@ -2959,7 +3040,10 @@
   },
   {
     "district": "Altona",
-    "title": { "de": "Neue Mitte Altona", "en": "New center Altona" },
+    "title": {
+      "de": "Neue Mitte Altona",
+      "en": "New center Altona"
+    },
     "description": {
       "de": "In dem Entwurfskonzept werden die beiden Assoziations räume „urbane Stadt“ und „Gleisanlagen“ zusammengefügtund aus ihnen die Gestaltungsprinzipien für die städtebau liche Struktur und die öffentlichen Räume der Neuen MitteAltona entwickelt. Die durch Gleisanlagen unterbrocheneGrünverknüpfung von der Elbe zum Volkspark wird mit demEntwurf hergestellt und die angrenzenden Gebiete werdendurch das neue Zentrum aufgewertet. Um diese großzügige,öffentliche Parkfläche entwickeln sich die neuen Quartiere.",
       "en": "The design concept combines the two associative spaces 'urban city' and 'railway tracks' and uses them to develop the design principles for the urban structure and public spaces of the new centre of Altona. The green link from the Elbe to the Volkspark, which is interrupted by the railway tracks, is created with the design and the neighbouring areas are enhanced by the new centre. The new neighbourhoods will develop around this spacious public park area."
@@ -2988,7 +3072,10 @@
   },
   {
     "district": "Bergstedt",
-    "title": { "de": "Kita Bergstedt", "en": "Kita Bergstedt" },
+    "title": {
+      "de": "Kita Bergstedt",
+      "en": "Kita Bergstedt"
+    },
     "description": {
       "de": "Neubau einer Kita in Holzmassivbauweise im denkmal geschützten Ensemble der evangelischen Kirche Bergstedt.Die Kita wurde beim BDA Architekturpreis Hamburg 2018mit einem 2. Preis ausgezeichnet.",
       "en": "New construction of a daycare centre in solid timber construction in the listed ensemble of the Bergstedt Protestant church, which was awarded 2nd prize at the BDA Architecture Prize Hamburg 2018"
@@ -3049,7 +3136,10 @@
   },
   {
     "district": "Lurup",
-    "title": { "de": "Wohnen am Volkspark", "en": "Living at the Volkspark" },
+    "title": {
+      "de": "Wohnen am Volkspark",
+      "en": "Living at the Volkspark"
+    },
     "description": {
       "de": "Das Baugrundstück für 171 geförderte Wohneinheiten liegtzwischen Volkspark und der stark frequentierten Elbgau straße, weshalb hohe Anforderungen an Schallschutz gestelltund eine hohe naturräumliche Qualität gefordert wurden.Die drei- bis viergeschossigen Baukörper beherbergen einenautofreien, familienfreundlichen Innenhof. Ein integrierterNachbarschaftstreff mit Gemeinschaftsräumen bietet dieMöglichkeit für Begegnungen.",
       "en": "The building site for 171 subsidised residential units is located between Volkspark and the busy Elbgaustrasse, which is why high demands were placed on noise protection and a high quality of natural surroundings. the three to four-storey buildings house a car-free, family-friendly inner courtyard. An integrated neighbourhood meeting point with common rooms offers the opportunity for encounters."
@@ -3253,7 +3343,10 @@
   },
   {
     "district": "Barmbek-Süd",
-    "title": { "de": "Built in Barmbek", "en": "Built in Barmbek" },
+    "title": {
+      "de": "Built in Barmbek",
+      "en": "Built in Barmbek"
+    },
     "description": {
       "de": "Unter dem Leitgedanken „Produktive Stadt“ entstand einGewerbehof, der kleinen Start-ups, Handwerks- und Dienstleistungsbetrieben der Kreativbranche günstige Flächenanbietet. Ein straßenbegleitender, fünfgeschossiger Baukörper ist für großflächige, ein zweigeschossiger Flügel imBlockinneren für kleinteiligere Gewerbenutzungen vorgesehen. Beide verbindet ein gemeinsam genutzter Werkhof.Das Gebäude ist als vorgefertigter Industriebau bewussteinfach gehalten, um geringe Mieten realisieren zu können.Architekturbüro: coido GmbHFührungen: Sven Cordsen, Luisa HeldTermine: Samstag, 25. Juni, 14.10 Uhr, 15.20 Uhr, 16.40 UhrTreffpunkt: Holsteinischer Kamp / Ecke Marschnerstraße",
       "en": "Under the guiding principle of 'Productive City', a commercial centre has been created that offers small start-ups, craft and service businesses in the creative sector affordable space. A five-storey building along the street is intended for large-scale commercial use, while a two-storey wing in the centre of the block is for smaller-scale commercial use. Both are connected by a shared work yard and the building has been deliberately kept simple as a prefabricated industrial building in order to realise low rents: Sven Cordsen, Luisa HeldDates: Saturday, 25 June, 2.10 pm, 3.20 pm, 4.40 pmMeeting point: 'Holsteinischer Kamp / corner of Marschnerstraße"
@@ -3426,7 +3519,10 @@
   },
   {
     "district": "Wandsbek",
-    "title": { "de": "Bunte Bleichen", "en": "Colorful bleaching" },
+    "title": {
+      "de": "Bunte Bleichen",
+      "en": "Colorful bleaching"
+    },
     "description": {
       "de": "Das Wohnensemble an einer viel befahrenen HamburgerMagistrale schafft einen freundlichen Ort mit eigenerIdentität für seine zukünftigen Bewohner. Die kubischenKlinkergebäude erzeugen eigenständige Adressen zumStraßenraum hin und werden über das Thema der Schallschutzloggien und Fenster zu einer gestalterischen Einheitzusammengezogen. Die Innenhoffassaden sind in hellenPutztönen gehalten und laden auf den großzügigen Galerienzum Verweilen ein.",
       "en": "The residential ensemble on a busy Hamburg arterial road creates a friendly place with its own identity for its future residents. The cubic clinker brick buildings create independent addresses towards the street and are drawn together to form a design unit through the theme of soundproof loggias and windows. The inner courtyard façades are kept in light plaster colours and invite people to linger in the spacious galleries."
@@ -3550,7 +3646,10 @@
   },
   {
     "district": "Bergedorf",
-    "title": { "de": "Jugendclub Bergedorf", "en": "Bergedorf youth club" },
+    "title": {
+      "de": "Jugendclub Bergedorf",
+      "en": "Bergedorf youth club"
+    },
     "description": {
       "de": "Der neue Jugendclub Bergedorf ist ein Bildungs- undSozialisationszentrum der offenen Kinder- und Jugendarbeit und liegt in einem Grünstreifen entlang des KanalsAlte Brookwetterung. Das Low-Budget-Gebäude ist als  CO2 -sparender Holzmassivbau mit einer Fassade aus Wellplatten verkleidet, die dem Gebäude bei sehr geringenKosten ein hohes Identifikationspotenzial geben.",
       "en": "The new Bergedorf youth club is an education and socialisation centre for open child and youth work and is located in a green strip along the Alte Brookwetterung canal. The low-budget building is a CO2-saving solid timber construction with a façade made of corrugated panels, which give the building a high identification potential at very low cost"
@@ -3611,7 +3710,10 @@
   },
   {
     "district": "Oberbillwerder",
-    "title": { "de": "Oberbillwerder", "en": "Oberbillwerder" },
+    "title": {
+      "de": "Oberbillwerder",
+      "en": "Oberbillwerder"
+    },
     "description": {
       "de": "Oberbillwerder liegt im Bezirk Bergedorf, rund 16 Minutenvom Hamburger Hauptbahnhof entfernt. Es ist nicht nurHamburgs zweitgrößtes Stadtentwicklungsprojekt, es wirdauch der 105. Stadtteil der Hansestadt - und der nachhaltigste. Seit 2016 laufen die Planungen der IBA Hamburg zurEntwicklung des neuen Stadtteils. In dem Prozess mit verschiedenen Beteiligungsformaten wurde der Entwurf vonADEPT mit Karres en Brands ausgewählt, der nun für die bauliche Realisierung ab Mitte der 2020er-Jahre weiterentwickelt wird.",
       "en": "Oberbillwerder is located in the Bergedorf district, around 16 minutes from Hamburg's main railway station. It is not only Hamburg's second largest urban development project, it will also be the 105th district in the Hanseatic city - and the most sustainable. IBA Hamburg has been planning the development of the new district since 2016. In the process with various participation formats, the design by ADEPT with Karres en Brands was selected, which will now be further developed for structural realisation from the mid-2020s"
@@ -3688,7 +3790,10 @@
   },
   {
     "district": "St. Georg",
-    "title": { "de": "CAB 20", "en": "CAB20" },
+    "title": {
+      "de": "CAB 20",
+      "en": "CAB20"
+    },
     "description": {
       "de": "Der Entwurf für das deutschlandweit erste Kabinenhotelist in seiner Reduktion auf das Wesentliche an japanischenKapselhotels orientiert. Es bietet 176 jeweils zweifach insich verschachtelte Kabinen als Ein- oder Zweibettzimmer.Die Gestaltung bezieht sich auf die ehemalige Zwischennutzung der Streetartkünstler*innen B20 im vormaligenAutohaus. So haben lokale Streetartkünstler*innen dieWände und Treppenhäuser des Hotels gestaltet.",
       "en": "The design for Germany's first cabin hotel is based on Japanese capsule hotels in its reduction to the essentials. It offers 176 cabins, each with two nested rooms for one or two people, and the design refers to the former temporary use of the former car dealership by street artists B20. Local street artists designed the walls and staircases of the hotel."
@@ -3811,7 +3916,10 @@
     "lng": 10.0241006
   },
   {
-    "title": { "de": "Burstah Ensemble ", "en": "Burstah Ensemble" },
+    "title": {
+      "de": "Burstah Ensemble ",
+      "en": "Burstah Ensemble"
+    },
     "description": {
       "de": "Das städtebauliche Entwicklungsprogramm „Innenstadtkonzept Hamburg 2010“ sieht im Umfeld der Nikolaikirche eine Neuordnung des Areals in Anlehnung an die kriegszerstörte, gründerzeitliche Bebauungsstruktur vor. Auf Grundlage des Wettbewerbsentwurfs „Großer Burstah 3, Neue Burg 1“ von BIWERMAU Architekten wurden dort zwei Büro- und Geschäftshäuser realisiert, die die stadtbildprägenden Typologien der Hamburger Kontorhäuser fortschreiben.",
       "en": "The urban development programme 'City Centre Concept Hamburg 2010' envisages a reorganisation of the area around the Nikolai Church based on the war-damaged, Wilhelminian-style building structure. Based on the competition design 'Großer Burstah 3, Neue Burg 1' by BIWERMAU Architekten, two office and commercial buildings were realised there, which continue the typologies of Hamburg's office buildings that characterise the cityscape."
@@ -3968,7 +4076,10 @@
     "lng": 9.9141628
   },
   {
-    "title": { "de": "Montblanc Haus", "en": "Mont Blanc House" },
+    "title": {
+      "de": "Montblanc Haus",
+      "en": "Mont Blanc House"
+    },
     "description": {
       "de": "Das Montblanc Haus ist ein neues Ausstellungsgebäude, das der Kunst des Schreibens gewidmet ist. Das Projekt ist als 100 Meter langes Volumen konzipiert, das die historische Form der Hülle eines Schreibgeräts aufgreift. Eine komplexe Abfolge von Räumen auf drei Ebenen ist um ein einzigartiges Foyer herum entwickelt. Das Gebäude mit einer Nutzfläche von 3.600 m² beherbergt eine Dauerausstellung, temporäre Ausstellungsräume, ein Archiv, eine Boutique, ein Schreib-Atelier, Meetingräume und ein Café.",
       "en": "The Montblanc House is a new exhibition building dedicated to the art of writing. The project is conceived as a 100 metre long volume that takes up the historical shape of the casing of a writing instrument. A complex sequence of rooms on three levels is developed around a unique foyer. The building, with a usable area of 3,600 m², houses a permanent exhibition, temporary exhibition spaces, an archive, a boutique, a writing studio, meeting rooms and a café."
@@ -4013,7 +4124,10 @@
     "lng": 9.947235
   },
   {
-    "title": { "de": "Alsterkant", "en": "Alsterkant" },
+    "title": {
+      "de": "Alsterkant",
+      "en": "Alsterkant"
+    },
     "description": {
       "de": "Das Gebäudeensemble ist eine umschließende Blockrandbebauung unter Berücksichtigung der vorgegebenen Sichtachse. Durch ein Öffnen des Blockrands zur Alster ist der Durchblick und der Bezug zum Wasser gegeben. Um neben dem Erhalt der schützenswerten Bäume den wichtigen Bezug zu dem gegenüberliegenden Schumacher-Bau zu schaffen, tritt das Volumen auf der Nordseite in Teilen zurück.",
       "en": "The building ensemble is an enclosing perimeter block development that takes into account the given visual axis. By opening up the edge of the block towards the Alster, the view and the relationship to the water is given. In order to create an important relationship to the Schumacher building opposite, in addition to preserving the trees worthy of protection, the volume on the north side recedes in parts"
@@ -4138,7 +4252,10 @@
     "lng": 9.928253699999999
   },
   {
-    "title": { "de": "Pergolenviertel", "en": "Pergolas Quarter" },
+    "title": {
+      "de": "Pergolenviertel",
+      "en": "Pergolas Quarter"
+    },
     "description": {
       "de": "Das Pergolenviertel beschreibt den „Block im Grünen“ in der urbanen Umgebung zwischen der Hamburger City Nord und Barmbek. Der Entwurf basiert auf einem klaren Entwurfsraster, welches sich sowohl in der äußeren Fassadengestaltung als auch in der inneren Struktur des Baukörpers wiederfindet. Das städtebauliche Prinzip wird hier zum maßstabsübergreifenden Entwurfsthema.",
       "en": "The pergola neighbourhood describes the 'block in the green' in the urban environment between Hamburg City North and Barmbek. The design is based on a clear design grid, which is reflected both in the external façade design and in the internal structure of the building. The urban planning principle becomes a cross-scale design theme here."
