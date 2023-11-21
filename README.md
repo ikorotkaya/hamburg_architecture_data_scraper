@@ -11,15 +11,17 @@ The data has been provided by [Architekten- und Ingenieurkammer Hamburg](https:/
 
 1. go to *parseNewData* folder
 2. run `node index.js` to execute the script
-3. the script will create a new json file in the *json folder* with the current year's name.
+3. the script will update finalProjects.json file with new projects and create a new json file with the current year's name in the *json folder* and add images to webp_images folder. 
 
 Optional: 
 
-To store the data in a database, create a model using Sequelize ORM and save it using the `sequelize` and `pg` packages. Refer to the `populateDatabaseORM.js` file for an example. 
+To store the data in a database, create a model using Sequelize ORM and save it using the `sequelize` and `pg` packages. Refer to the `populateDatabaseORM.js` file in `helpers` folder for an example. 
 
 ## Important Notes
 
 🔑 In geocodeAddresses.js, you can obtain the lat and lng coordinates for each project using the Google Maps API, which requires a Google Cloud Account and API Key for this project. Visit the [Google Maps JavaScript API documentation](https://developers.google.com/maps/documentation/javascript/get-api-key) for a guidance on how to get and set up your API key.
+
+🪛 To obtain translations for the project descriptions, you can utilise the [Google Translate API](https://cloud.google.com/translate/docs/setup). To do this, it is necessary for you to establish an API Key.
 
 ❗️ Make sure to save your sensitive information in the env file and use dotenv to establish secure connections between your server and database. Refer to the `.env.example` file.
 
