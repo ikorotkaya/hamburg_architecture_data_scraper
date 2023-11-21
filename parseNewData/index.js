@@ -12,7 +12,7 @@ const year = 2024; // change this to the current year to get the correct name of
     const response = await axios.get(baseUrl);
     const html = response.data;
     const $ = cheerio.load(html);
-    const projectLinks = [];
+    let projectLinks = [];
 
     $(".figure a", html).each((i, projectLink) => {
       const relativeUrl = $(projectLink).attr("href");

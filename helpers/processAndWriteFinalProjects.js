@@ -3,6 +3,7 @@ const fs = require("fs");
 const parseWebProjectData = require("./parseWebProjectData");
 const geocodeAddress = require("./geocodeAddress");
 const translateText = require("./translateText");
+const saveImage = require("./saveImage");
 
 const existingFinalProjects = require("../json/finalProjects.json");
 
@@ -12,6 +13,10 @@ async function processAndWriteFinalProjects(projectLinks, outputPath, startingId
       const projectData = await parseWebProjectData(projectLink);
       if (projectData) {
         projectData.id = startingId + index;
+        if (projectData.imageUrl) {
+          await saveImage(projectData.id, projectData.imageUrl);
+          delete projectData.imageUrl;
+        }
         const { lat, lng } = await geocodeAddress(projectData.address);
         projectData.lat = lat;
         projectData.lng = lng;
